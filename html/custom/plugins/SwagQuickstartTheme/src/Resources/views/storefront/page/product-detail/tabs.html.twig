@@ -1,0 +1,32 @@
+{% sw_extends '@Storefront/storefront/page/product-detail/tabs.html.twig' %}
+ {% block page_product_detail_tabs_navigation_description %}
+ {{parent()}}
+                            <li class="nav-item">
+                                <a class="nav-link"
+                                   id="quickstart-tab"
+                                   data-toggle="tab"
+                                   data-offcanvas-tabs="true"
+                                   href="#quickstart-tab-pane"
+                                   role="tab"
+                                   aria-controls="quickstart-tab-pane"
+                                   aria-selected="true">
+                                   
+                                    <span class="product-detail-tab-navigation-icon">
+                                        {% sw_icon 'arrow-medium-right' style {'pack':'solid'} %}
+                                    </span>
+                                    Quickstart
+                     
+                                </a>
+                            </li>
+                        {% endblock %}
+
+
+ {% block page_product_detail_tabs_content_description %}
+  {{parent()}}
+<div class="tab-pane fade show"
+ id="quickstart-tab-pane"
+  role="tabpanel"
+ aria-labelledby="quickstart-tab">
+ <p>Hello This is the description tab</p>
+   </div>
+{% endblock %}

@@ -1,0 +1,21 @@
+{% sw_extends '@Storefront/storefront/base.html.twig' %}
+
+{% block base_main %}
+<h2>Asset:</h2>
+{#Using asset function to display our custom assets#}
+ <img src="{{ asset('bundles/swagquickstarttheme/image.jpg', 'asset') }}"
+
+
+    {{ parent() }}
+
+
+{% endblock %}
+
+{% block base_body %}
+ {# We want to set our own icon here #}
+    <h6>Custom icon:</h6>
+   {% sw_icon 'eye-crossed' style {
+    'size': 'lg'
+} %}
+{{ parent() }}
+{% endblock %}

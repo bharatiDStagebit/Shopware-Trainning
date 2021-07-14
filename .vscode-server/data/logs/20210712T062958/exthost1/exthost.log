@@ -1,0 +1,30 @@
+[2021-07-12 06:30:02.102] [exthost] [info] extension host started
+[2021-07-12 06:30:02.169] [exthost] [info] Lock '/var/www/.vscode-server/data/User/workspaceStorage/c442117acadd182bd5a664e886124edc/vscode.lock': Lock acquired.
+[2021-07-12 06:30:02.257] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch {"startup":true,"extensionId":{"value":"vscode.debug-auto-launch","_lower":"vscode.debug-auto-launch"},"activationEvent":"*"}
+[2021-07-12 06:30:02.258] [exthost] [info] ExtensionService#loadCommonJSModule file:///var/www/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/extensions/debug-auto-launch/dist/extension
+[2021-07-12 06:30:02.290] [exthost] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"extensionId":{"value":"vscode.github","_lower":"vscode.github"},"activationEvent":"*"}
+[2021-07-12 06:30:02.290] [exthost] [info] ExtensionService#loadCommonJSModule file:///var/www/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/extensions/git/dist/main
+[2021-07-12 06:30:02.546] [exthost] [info] ExtensionService#_doActivateExtension nadim-vscode.symfony-code-snippets {"startup":true,"extensionId":{"value":"nadim-vscode.symfony-code-snippets","_lower":"nadim-vscode.symfony-code-snippets"},"activationEvent":"*"}
+[2021-07-12 06:30:02.546] [exthost] [info] ExtensionService#loadCommonJSModule file:///var/www/.vscode-server/extensions/nadim-vscode.symfony-code-snippets-1.2.7/extension
+[2021-07-12 06:30:02.548] [exthost] [info] ExtensionService#_doActivateExtension nadim-vscode.symfony-super-console {"startup":true,"extensionId":{"value":"nadim-vscode.symfony-super-console","_lower":"nadim-vscode.symfony-super-console"},"activationEvent":"*"}
+[2021-07-12 06:30:02.548] [exthost] [info] ExtensionService#loadCommonJSModule file:///var/www/.vscode-server/extensions/nadim-vscode.symfony-super-console-1.1.1/extension.js
+[2021-07-12 06:30:03.206] [exthost] [info] ExtensionService#_doActivateExtension vscode.github {"startup":true,"extensionId":{"value":"vscode.github","_lower":"vscode.github"},"activationEvent":"*"}
+[2021-07-12 06:30:03.206] [exthost] [info] ExtensionService#loadCommonJSModule file:///var/www/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/extensions/github/dist/extension.js
+[2021-07-12 06:30:03.837] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":false,"extensionId":{"value":"vscode.emmet","_lower":"vscode.emmet"},"activationEvent":"onStartupFinished"}
+[2021-07-12 06:30:03.837] [exthost] [info] ExtensionService#loadCommonJSModule file:///var/www/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/extensions/emmet/dist/node/emmetNodeMain
+[2021-07-12 06:30:03.868] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":false,"extensionId":{"value":"vscode.merge-conflict","_lower":"vscode.merge-conflict"},"activationEvent":"onStartupFinished"}
+[2021-07-12 06:30:03.868] [exthost] [info] ExtensionService#loadCommonJSModule file:///var/www/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/extensions/merge-conflict/dist/mergeConflictMain
+[2021-07-12 06:30:03.875] [exthost] [info] ExtensionService#_doActivateExtension vscode.testing-editor-contributions {"startup":false,"extensionId":{"value":"vscode.testing-editor-contributions","_lower":"vscode.testing-editor-contributions"},"activationEvent":"onStartupFinished"}
+[2021-07-12 06:30:03.876] [exthost] [info] ExtensionService#loadCommonJSModule file:///var/www/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/extensions/testing-editor-contributions/dist/extension.js
+[2021-07-12 06:30:03.877] [exthost] [info] eager extensions activated
+[2021-07-12 06:30:04.376] [exthost] [info] ExtensionService#_doActivateExtension ms-vscode.js-debug {"startup":false,"extensionId":{"value":"ms-vscode.js-debug","_lower":"ms-vscode.js-debug"},"activationEvent":"onCommand:extension.js-debug.clearAutoAttachVariables"}
+[2021-07-12 06:30:04.376] [exthost] [info] ExtensionService#loadCommonJSModule file:///var/www/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/extensions/ms-vscode.js-debug/src/extension.js
+[2021-07-12 06:30:42.388] [exthost] [info] ExtensionService#_doActivateExtension vscode.php-language-features {"startup":false,"extensionId":{"value":"vscode.php-language-features","_lower":"vscode.php-language-features"},"activationEvent":"onLanguage:php"}
+[2021-07-12 06:30:42.391] [exthost] [info] ExtensionService#loadCommonJSModule file:///var/www/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/extensions/php-language-features/dist/phpMain
+[2021-07-12 06:31:48.159] [exthost] [info] ExtensionService#_doActivateExtension vscode.typescript-language-features {"startup":false,"extensionId":{"value":"vscode.typescript-language-features","_lower":"vscode.typescript-language-features"},"activationEvent":"onLanguage:javascript"}
+[2021-07-12 06:31:48.160] [exthost] [info] ExtensionService#loadCommonJSModule file:///var/www/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/extensions/typescript-language-features/dist/extension
+[2021-07-12 06:35:41.428] [exthost] [info] ExtensionService#_doActivateExtension vscode.extension-editing {"startup":false,"extensionId":{"value":"vscode.extension-editing","_lower":"vscode.extension-editing"},"activationEvent":"onLanguage:typescript"}
+[2021-07-12 06:35:41.428] [exthost] [info] ExtensionService#loadCommonJSModule file:///var/www/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/extensions/extension-editing/dist/extensionEditingMain
+[2021-07-12 16:17:28.880] [exthost] [info] extension host terminating: received terminate message from renderer
+[2021-07-12 16:17:28.909] [exthost] [info] Lock '/var/www/.vscode-server/data/User/workspaceStorage/c442117acadd182bd5a664e886124edc/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+[2021-07-12 16:17:30.375] [exthost] [info] exiting with code 0

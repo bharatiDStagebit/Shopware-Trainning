@@ -1,0 +1,93 @@
+{
+	"name": "symfony-code-snippets",
+	"displayName": "Symfony code snippets And Twig Support & Yaml",
+	"icon": "icon.png",
+	"description": "Over 80 Symfony Code Snippets for PhP code And Over 80 Twig Code Snippets. Just type the letters 'sf' to get a list of all available Symfony Code Snippets. For Twig Just Type the Tag name and you will get AutoCompletion.",
+	"publisher": "nadim-vscode",
+	"author": {
+		"name": "Nadim Al Abdou",
+		"url": "https://nalabdou.com"
+	},
+	"homepage": "https://github.com/nalabdou/Symfony-code-snippets/blob/master/README.md",
+	"license": "SEE LICENSE IN LICENSE",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/nalabdou/Symfony-code-snippets"
+	},
+	"bugs": "https://github.com/nalabdou/Symfony-code-snippets/issues",
+	"version": "1.2.7",
+	"engines": {
+		"vscode": "^1.43.0"
+	},
+	"categories": [
+		"Snippets",
+		"Language Packs",
+		"Programming Languages",
+		"Extension Packs",
+		"Other"
+	],
+	"keywords": [
+		"twig",
+		"snippets",
+		"completion",
+		"template",
+		"symfony",
+		"php",
+		"yaml"
+	],
+	"activationEvents": [
+		"*"
+	],
+	"main": "./extension",
+	"contributes": {
+		"snippets": [
+			{
+				"language": "twig",
+				"path": "./snippets/twig.json"
+			},
+			{
+				"language": "php",
+				"path": "./snippets/symfony.json"
+			},
+			{
+				"language": "yaml",
+				"path": "./snippets/yaml.json"
+			}
+		],
+		"languages": [
+			{
+				"id": "twig",
+				"aliases": [
+					"HTML (Twig)",
+					"twig"
+				],
+				"extensions": [
+					".twig",
+					".html.twig"
+				],
+				"configuration": "./twig.configuration.json"
+			}
+		],
+		"grammars": [
+			{
+				"language": "twig",
+				"scopeName": "text.html.twig",
+				"path": "./syntaxes/twig.tmLanguage"
+			}
+		]
+	},
+	"devDependencies": {
+		"vscode": "^1.1.36"
+	},
+	"galleryBanner": {
+		"color": "#353091",
+		"theme": "dark"
+	},
+	"qna": "marketplace",
+	"__metadata": {
+		"id": "9558ff0d-63be-49d4-9d05-2fc5ee3c7130",
+		"publisherId": "23c27a52-6613-4bda-8b0d-d09fa109d4ed",
+		"publisherDisplayName": "Nadim Al Abdou",
+		"installedTimestamp": 1625027960855
+	}
+}

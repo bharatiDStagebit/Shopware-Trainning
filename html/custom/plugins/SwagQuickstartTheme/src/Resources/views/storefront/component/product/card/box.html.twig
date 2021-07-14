@@ -1,0 +1,6 @@
+{% sw_extends '@Storefront/storefront/component/product/card/box.html.twig' %}
+{% block component_product_box_include %}
+{% set layout='standard' %}
+  {% set template = "@Storefront/storefront/component/product/card/box-" ~ layout ~ ".html.twig" %}
+   {% sw_include template ignore missing %}
+{% endblock %}

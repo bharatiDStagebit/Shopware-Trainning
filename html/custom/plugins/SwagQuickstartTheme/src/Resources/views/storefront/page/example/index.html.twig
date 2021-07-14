@@ -1,0 +1,17 @@
+
+{% sw_extends '@Storefront/storefront/base.html.twig' %}
+{% block base_content %}
+    {{ example }}
+   
+    {{parent()}}
+ <template data-example-plugin></template>
+      <div>
+        <h1>Swag AJAX Example</h1>
+
+        <div  data-example-plugin>
+            <div id="ajax-display"></div>
+            <button id="ajax-button">Button</button>
+        </div>
+        
+  
+{% endblock %}

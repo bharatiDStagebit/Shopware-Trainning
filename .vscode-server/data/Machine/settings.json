@@ -1,0 +1,9 @@
+{
+  "terminal.integrated.localEchoExcludePrograms": [
+    "vim",
+    "vi",
+    "nano",
+    "tmux",
+    "bin/console"
+  ]
+}

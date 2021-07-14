@@ -1,0 +1,5 @@
+[user]
+	email = bharati.deore@stagebit.com
+	name = Bharati Deore
+[credential]
+	helper = "!f() { /var/www/.vscode-server/bin/507ce72a4466fbb27b715c3722558bb15afa9f48/node /tmp/vscode-remote-containers-92f329a0df2fec7571c7b1972743dbdae0777701.js $*; }; f"
