@@ -37,3 +37,23 @@ php bin/console server:run
 php bin/console assets:install
 git init
 git add .
+git init
+git commit -m "Shopware Trainning"
+git branch
+git status
+git remote add origin https://github.com/bharatiDStagebit/Shopware-Trainning.git
+git push -u origin master
+git push -u origin main
+git push server master
+ git remote add origin https://github.com/bharatiDStagebit/Shopware-Trainning.git
+git push 
+    git push --set-upstream origin master
+git status
+git add .
+git status
+git commit -am "shopware Trainning"
+git push
+ git push --set-upstream origin master
+git branch
+git status
+git commit -a

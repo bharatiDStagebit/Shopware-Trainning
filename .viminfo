@@ -28,18 +28,18 @@
 |3,1,36,0,1,0,1625025981,"!"
 
 # File marks:
-'0  1  15  bin/console
-|4,48,1,15,1625027228,"bin/console"
+'0  10  0  ~/.git/COMMIT_EDITMSG
+|4,48,10,0,1626240882,"~/.git/COMMIT_EDITMSG"
 '1  1  15  bin/console
-|4,49,1,15,1625027191,"bin/console"
-'2  1  35  bin/console
-|4,50,1,35,1625027153,"bin/console"
+|4,49,1,15,1625027228,"bin/console"
+'2  1  15  bin/console
+|4,50,1,15,1625027191,"bin/console"
 '3  1  35  bin/console
 |4,51,1,35,1625027153,"bin/console"
-'4  1  0  ~/try.sh
-|4,52,1,0,1625027033,"~/try.sh"
-'5  1  0  bin/console
-|4,53,1,0,1625026973,"bin/console"
+'4  1  35  bin/console
+|4,52,1,35,1625027153,"bin/console"
+'5  1  0  ~/try.sh
+|4,53,1,0,1625027033,"~/try.sh"
 '6  1  0  bin/console
 |4,54,1,0,1625026973,"bin/console"
 '7  1  0  bin/console
@@ -47,13 +47,23 @@
 '8  1  0  bin/console
 |4,56,1,0,1625026973,"bin/console"
 '9  1  0  bin/console
-|4,57,1,0,1625026834,"bin/console"
+|4,57,1,0,1625026973,"bin/console"
 
 # Jumplist (newest first):
+-'  10  0  ~/.git/COMMIT_EDITMSG
+|4,39,10,0,1626240882,"~/.git/COMMIT_EDITMSG"
+-'  1  0  ~/.git/COMMIT_EDITMSG
+|4,39,1,0,1626240653,"~/.git/COMMIT_EDITMSG"
+-'  1  15  bin/console
+|4,39,1,15,1625027228,"bin/console"
 -'  1  15  bin/console
 |4,39,1,15,1625027228,"bin/console"
 -'  1  15  bin/console
 |4,39,1,15,1625027191,"bin/console"
+-'  1  15  bin/console
+|4,39,1,15,1625027191,"bin/console"
+-'  1  35  bin/console
+|4,39,1,35,1625027153,"bin/console"
 -'  1  35  bin/console
 |4,39,1,35,1625027153,"bin/console"
 -'  1  0  ~/try.sh
@@ -72,6 +82,26 @@
 |4,39,1,0,1625027033,"~/try.sh"
 -'  1  0  ~/try.sh
 |4,39,1,0,1625027033,"~/try.sh"
+-'  1  0  ~/try.sh
+|4,39,1,0,1625027033,"~/try.sh"
+-'  1  0  ~/try.sh
+|4,39,1,0,1625027033,"~/try.sh"
+-'  1  0  ~/try.sh
+|4,39,1,0,1625027033,"~/try.sh"
+-'  1  0  ~/try.sh
+|4,39,1,0,1625027033,"~/try.sh"
+-'  1  0  ~/try.sh
+|4,39,1,0,1625027033,"~/try.sh"
+-'  1  0  ~/try.sh
+|4,39,1,0,1625027033,"~/try.sh"
+-'  1  0  ~/try.sh
+|4,39,1,0,1625027033,"~/try.sh"
+-'  1  0  ~/try.sh
+|4,39,1,0,1625027033,"~/try.sh"
+-'  1  0  bin/console
+|4,39,1,0,1625026973,"bin/console"
+-'  1  0  bin/console
+|4,39,1,0,1625026973,"bin/console"
 -'  1  0  bin/console
 |4,39,1,0,1625026973,"bin/console"
 -'  1  0  bin/console
@@ -80,6 +110,14 @@
 |4,39,1,0,1625026834,"bin/console"
 -'  1  0  bin/console
 |4,39,1,0,1625026834,"bin/console"
+-'  1  0  bin/console
+|4,39,1,0,1625026834,"bin/console"
+-'  1  0  bin/console
+|4,39,1,0,1625026834,"bin/console"
+-'  1  0  bin/console
+|4,39,1,0,1625026727,"bin/console"
+-'  1  0  bin/console
+|4,39,1,0,1625026727,"bin/console"
 -'  1  0  bin/console
 |4,39,1,0,1625026727,"bin/console"
 -'  1  0  bin/console
@@ -92,6 +130,30 @@
 |4,39,1,1178,1625026518,"bin/console"
 -'  1  1178  bin/console
 |4,39,1,1178,1625026518,"bin/console"
+-'  1  1178  bin/console
+|4,39,1,1178,1625026518,"bin/console"
+-'  1  1178  bin/console
+|4,39,1,1178,1625026518,"bin/console"
+-'  1  1178  bin/console
+|4,39,1,1178,1625026518,"bin/console"
+-'  1  1178  bin/console
+|4,39,1,1178,1625026518,"bin/console"
+-'  1  1209  bin/console
+|4,39,1,1209,1625026469,"bin/console"
+-'  1  0  bin/console
+|4,39,1,0,1625026469,"bin/console"
+-'  1  1209  bin/console
+|4,39,1,1209,1625026469,"bin/console"
+-'  1  0  bin/console
+|4,39,1,0,1625026469,"bin/console"
+-'  1  1209  bin/console
+|4,39,1,1209,1625026469,"bin/console"
+-'  1  0  bin/console
+|4,39,1,0,1625026469,"bin/console"
+-'  1  1209  bin/console
+|4,39,1,1209,1625026469,"bin/console"
+-'  1  0  bin/console
+|4,39,1,0,1625026469,"bin/console"
 -'  1  1209  bin/console
 |4,39,1,1209,1625026469,"bin/console"
 -'  1  0  bin/console
@@ -117,6 +179,18 @@
 -'  1  0  bin/console
 |4,39,1,0,1625026285,"bin/console"
 -'  1  0  bin/console
+|4,39,1,0,1625026285,"bin/console"
+-'  1  0  bin/console
+|4,39,1,0,1625026285,"bin/console"
+-'  1  0  bin/console
+|4,39,1,0,1625026285,"bin/console"
+-'  1  0  bin/console
+|4,39,1,0,1625026285,"bin/console"
+-'  1  0  bin/console
+|4,39,1,0,1625026247,"bin/console"
+-'  1  0  bin/console
+|4,39,1,0,1625026247,"bin/console"
+-'  1  0  bin/console
 |4,39,1,0,1625026247,"bin/console"
 -'  1  0  bin/console
 |4,39,1,0,1625026247,"bin/console"
@@ -124,6 +198,18 @@
 |4,39,1,0,1625026247,"bin/console"
 -'  1  0  bin/console
 |4,39,1,0,1625026247,"bin/console"
+-'  1  0  bin/console
+|4,39,1,0,1625026247,"bin/console"
+-'  1  0  bin/console
+|4,39,1,0,1625026247,"bin/console"
+-'  1  0  bin/console
+|4,39,1,0,1625026159,"bin/console"
+-'  1  0  bin/console
+|4,39,1,0,1625026159,"bin/console"
+-'  1  0  bin/console
+|4,39,1,0,1625026159,"bin/console"
+-'  1  0  bin/console
+|4,39,1,0,1625026159,"bin/console"
 -'  1  0  bin/console
 |4,39,1,0,1625026159,"bin/console"
 -'  1  0  bin/console
@@ -141,6 +227,20 @@
 -'  1  0  bin/console
 |4,39,1,0,1625026142,"bin/console"
 -'  1  0  bin/console
+|4,39,1,0,1625026142,"bin/console"
+-'  1  0  bin/console
+|4,39,1,0,1625026142,"bin/console"
+-'  1  0  bin/console
+|4,39,1,0,1625026142,"bin/console"
+-'  1  0  bin/console
+|4,39,1,0,1625026142,"bin/console"
+-'  1  0  bin/console
+|4,39,1,0,1625026075,"bin/console"
+-'  1  0  bin/console
+|4,39,1,0,1625026075,"bin/console"
+-'  1  0  bin/console
+|4,39,1,0,1625026075,"bin/console"
+-'  1  0  bin/console
 |4,39,1,0,1625026075,"bin/console"
 -'  1  0  bin/console
 |4,39,1,0,1625026075,"bin/console"
@@ -149,15 +249,13 @@
 -'  1  0  bin/console
 |4,39,1,0,1625026075,"bin/console"
 -'  1  0  bin/console
-|4,39,1,0,1625026034,"bin/console"
--'  1  0  bin/console
-|4,39,1,0,1625026034,"bin/console"
--'  1  0  bin/console
-|4,39,1,0,1625026034,"bin/console"
--'  1  0  bin/console
-|4,39,1,0,1625026034,"bin/console"
+|4,39,1,0,1625026075,"bin/console"
 
 # History of marks within files (newest to oldest):
+
+> ~/.git/COMMIT_EDITMSG
+	*	1626240880	0
+	"	10	0
 
 > bin/console
 	*	1625027223	0

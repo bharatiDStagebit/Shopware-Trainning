@@ -250,3 +250,24 @@ Open repository: /var/www
 > git ls-files --stage -- /var/www/html/custom/plugins/SwagQuickstartTheme/src/Resources/app/storefront/src/example-plugin/example-plugin.plugin.js
 > git cat-file -s f8cb16cb78e1e0dfd44bfbddeafa8769c4f0b621
 > git show --textconv :html/custom/plugins/SwagQuickstartTheme/src/Resources/app/storefront/src/example-plugin/example-plugin.plugin.js
+> git ls-files --stage -- /var/www/html/custom/plugins/SwagQuickstartTheme/src/Resources/app/storefront/src/example-plugin/example-plugin.plugin.js
+> git cat-file -s f8cb16cb78e1e0dfd44bfbddeafa8769c4f0b621
+> git show --textconv :html/custom/plugins/SwagQuickstartTheme/src/Resources/app/storefront/src/example-plugin/example-plugin.plugin.js
+> git ls-files --stage -- /var/www/html/custom/plugins/SwagQuickstartTheme/src/Resources/app/storefront/src/example-plugin/example-plugin.plugin.js
+> git cat-file -s f8cb16cb78e1e0dfd44bfbddeafa8769c4f0b621
+> git show --textconv :html/custom/plugins/SwagQuickstartTheme/src/Resources/app/storefront/src/example-plugin/example-plugin.plugin.js
+> git ls-files --stage -- /var/www/html/custom/plugins/SwagQuickstartTheme/src/Resources/app/storefront/src/example-plugin/example-plugin.plugin.js
+> git cat-file -s f8cb16cb78e1e0dfd44bfbddeafa8769c4f0b621
+> git show --textconv :html/custom/plugins/SwagQuickstartTheme/src/Resources/app/storefront/src/example-plugin/example-plugin.plugin.js
+> git ls-files --stage -- /var/www/html/custom/plugins/SwagQuickstartTheme/src/Resources/app/storefront/src/example-plugin/example-plugin.plugin.js
+> git cat-file -s f8cb16cb78e1e0dfd44bfbddeafa8769c4f0b621
+> git show --textconv :html/custom/plugins/SwagQuickstartTheme/src/Resources/app/storefront/src/example-plugin/example-plugin.plugin.js
+> git ls-files --stage -- /var/www/html/custom/plugins/SwagQuickstartTheme/src/Resources/app/storefront/src/example-plugin/example-plugin.plugin.js
+> git cat-file -s f8cb16cb78e1e0dfd44bfbddeafa8769c4f0b621
+> git show --textconv :html/custom/plugins/SwagQuickstartTheme/src/Resources/app/storefront/src/example-plugin/example-plugin.plugin.js
+> git ls-files --stage -- /var/www/html/custom/plugins/SwagQuickstartTheme/src/Resources/app/storefront/src/example-plugin/example-plugin.plugin.js
+> git cat-file -s f8cb16cb78e1e0dfd44bfbddeafa8769c4f0b621
+> git show --textconv :html/custom/plugins/SwagQuickstartTheme/src/Resources/app/storefront/src/example-plugin/example-plugin.plugin.js
+> git ls-files --stage -- /var/www/html/custom/plugins/SwagQuickstartTheme/src/Resources/app/storefront/src/example-plugin/example-plugin.plugin.js
+> git cat-file -s f8cb16cb78e1e0dfd44bfbddeafa8769c4f0b621
+> git show --textconv :html/custom/plugins/SwagQuickstartTheme/src/Resources/app/storefront/src/example-plugin/example-plugin.plugin.js
