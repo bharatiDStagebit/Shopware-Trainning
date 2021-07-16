@@ -1,0 +1,213 @@
+Validating found git in: git
+Using git 2.17.1 from git
+> git rev-parse --git-dir
+Open repository: /var/www
+> git status -z -u
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/bdeore/SB-373-202107141224 refs/remotes/bdeore/SB-373-202107141224
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :html/custom/plugins/SwagQuickstartTheme/src/Storefront/Controller/ExampleController.php
+> git ls-files --stage -- /var/www/html/custom/plugins/SwagQuickstartTheme/src/Storefront/Controller/ExampleController.php
+> git cat-file -s 7c24a1635e47f23872a51a770526eea002f42e5e
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show --textconv :html/custom/plugins/SwagQuickstartTheme/src/Resources/views/storefront/Page/Example/index.html.twig
+> git ls-files --stage -- /var/www/html/custom/plugins/SwagQuickstartTheme/src/Resources/views/storefront/Page/Example/index.html.twig
+> git show --textconv :html/custom/plugins/SwagQuickstartTheme/src/Storefront/Controller/ExampleController.php
+> git ls-files --stage -- /var/www/html/custom/plugins/SwagQuickstartTheme/src/Storefront/Controller/ExampleController.php
+> git cat-file -s 7c24a1635e47f23872a51a770526eea002f42e5e
+> git show --textconv :html/custom/plugins/SwagQuickstartTheme/src/Resources/views/storefront/Page/Example/index.html.twig
+> git ls-files --stage -- /var/www/html/custom/plugins/SwagQuickstartTheme/src/Resources/views/storefront/Page/Example/index.html.twig
+> git show --textconv :html/vendor/shopware/storefront/Page/Account/Order/AccountOrderPageLoader.php
+> git ls-files --stage -- /var/www/html/vendor/shopware/storefront/Page/Account/Order/AccountOrderPageLoader.php
+> git cat-file -s b98cf7413c8973315e8a20fd9ba85a621086a476
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show --textconv :html/vendor/shopware/storefront/Page/Navigation/NavigationPageLoader.php
+> git ls-files --stage -- /var/www/html/vendor/shopware/storefront/Page/Navigation/NavigationPageLoader.php
+> git cat-file -s 07ead2b96110199faba98c6dd0cb3e26dd5c07fd
+> git check-ignore -v -z --stdin
+> git show --textconv :html/vendor/shopware/storefront/Page/Search/SearchPageLoader.php
+> git ls-files --stage -- /var/www/html/vendor/shopware/storefront/Page/Search/SearchPageLoader.php
+> git cat-file -s 5b7c8d8b041905bd5fb45e7167bf30c094f346f6
+> git check-ignore -v -z --stdin
+> git show --textconv :html/vendor/shopware/storefront/Page/Navigation/NavigationPageLoader.php
+> git ls-files --stage -- /var/www/html/vendor/shopware/storefront/Page/Navigation/NavigationPageLoader.php
+> git cat-file -s 07ead2b96110199faba98c6dd0cb3e26dd5c07fd
+> git show --textconv :html/custom/plugins/SwagQuickstartTheme/src/Resources/views/storefront/Page/Example/index.html.twig
+> git ls-files --stage -- /var/www/html/custom/plugins/SwagQuickstartTheme/src/Resources/views/storefront/Page/Example/index.html.twig
+> git show --textconv :html/custom/plugins/SwagQuickstartTheme/src/Service/ReadingData.php
+> git ls-files --stage -- /var/www/html/custom/plugins/SwagQuickstartTheme/src/Service/ReadingData.php
+> git show --textconv :html/custom/plugins/SwagQuickstartTheme/src/Resources/config/services.xml
+> git ls-files --stage -- /var/www/html/custom/plugins/SwagQuickstartTheme/src/Resources/config/services.xml
+> git cat-file -s a33cdd72bd97a2ff429177642b240220ed0326ae
+> git show --textconv :html/custom/plugins/SwagQuickstartTheme/src/Service/ReadingData.php
+> git ls-files --stage -- /var/www/html/custom/plugins/SwagQuickstartTheme/src/Service/ReadingData.php
+> git show --textconv :html/custom/plugins/SwagQuickstartTheme/src/Resources/config/services.xml
+> git ls-files --stage -- /var/www/html/custom/plugins/SwagQuickstartTheme/src/Resources/config/services.xml
+> git cat-file -s a33cdd72bd97a2ff429177642b240220ed0326ae
+> git show --textconv :html/custom/plugins/SwagQuickstartTheme/src/Service/ReadingData.php
+> git ls-files --stage -- /var/www/html/custom/plugins/SwagQuickstartTheme/src/Service/ReadingData.php
+> git show --textconv :html/custom/plugins/SwagQuickstartTheme/src/Resources/views/storefront/Page/Example/index.html.twig
+> git ls-files --stage -- /var/www/html/custom/plugins/SwagQuickstartTheme/src/Resources/views/storefront/Page/Example/index.html.twig
+> git show --textconv :html/custom/plugins/SwagQuickstartTheme/src/Service/ReadingData.php
+> git ls-files --stage -- /var/www/html/custom/plugins/SwagQuickstartTheme/src/Service/ReadingData.php
+> git show --textconv :html/custom/plugins/SwagQuickstartTheme/src/Resources/views/storefront/Page/Example/index.html.twig
+> git ls-files --stage -- /var/www/html/custom/plugins/SwagQuickstartTheme/src/Resources/views/storefront/Page/Example/index.html.twig
+> git show --textconv :html/custom/plugins/SwagQuickstartTheme/src/Service/ReadingData.php
+> git ls-files --stage -- /var/www/html/custom/plugins/SwagQuickstartTheme/src/Service/ReadingData.php
+> git show --textconv :html/custom/plugins/SwagQuickstartTheme/src/Resources/views/storefront/Page/Example/index.html.twig
+> git ls-files --stage -- /var/www/html/custom/plugins/SwagQuickstartTheme/src/Resources/views/storefront/Page/Example/index.html.twig
+> git show --textconv :html/custom/plugins/SwagQuickstartTheme/src/Service/ReadingData.php
+> git ls-files --stage -- /var/www/html/custom/plugins/SwagQuickstartTheme/src/Service/ReadingData.php
+> git show --textconv :html/custom/plugins/SwagQuickstartTheme/src/Resources/config/services.xml
+> git ls-files --stage -- /var/www/html/custom/plugins/SwagQuickstartTheme/src/Resources/config/services.xml
+> git cat-file -s a33cdd72bd97a2ff429177642b240220ed0326ae
+> git show --textconv :html/custom/plugins/SwagQuickstartTheme/src/Service/ReadingData.php
+> git ls-files --stage -- /var/www/html/custom/plugins/SwagQuickstartTheme/src/Service/ReadingData.php
+> git show --textconv :html/custom/plugins/SwagQuickstartTheme/src/Resources/config/services.xml
+> git ls-files --stage -- /var/www/html/custom/plugins/SwagQuickstartTheme/src/Resources/config/services.xml
+> git cat-file -s a33cdd72bd97a2ff429177642b240220ed0326ae
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show --textconv :html/custom/plugins/SwagQuickstartTheme/src/Storefront/Controller/ExampleController.php
+> git ls-files --stage -- /var/www/html/custom/plugins/SwagQuickstartTheme/src/Storefront/Controller/ExampleController.php
+> git cat-file -s 7c24a1635e47f23872a51a770526eea002f42e5e
+> git check-ignore -v -z --stdin
+> git show --textconv :html/vendor/sensio/framework-extra-bundle/src/Resources/doc/index.rst
+> git ls-files --stage -- /var/www/html/vendor/sensio/framework-extra-bundle/src/Resources/doc/index.rst
+> git cat-file -s ceb2ac2450fe6b84ffce7d2e3760d84190a5fad0
+> git check-ignore -v -z --stdin
+> git show --textconv :html/custom/plugins/SwagQuickstartTheme/src/Storefront/Controller/ExampleController.php
+> git ls-files --stage -- /var/www/html/custom/plugins/SwagQuickstartTheme/src/Storefront/Controller/ExampleController.php
+> git cat-file -s 7c24a1635e47f23872a51a770526eea002f42e5e
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n21 -- /var/www/html/custom/plugins/SwagQuickstartTheme/src/Storefront/Controller/ExampleController.php
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show --textconv :html/vendor/shopware/storefront/Pagelet/Footer/FooterPagelet.php
+> git ls-files --stage -- /var/www/html/vendor/shopware/storefront/Pagelet/Footer/FooterPagelet.php
+> git cat-file -s 61f2ac913a4d11e5815756978262385f70cd0777
+> git show --textconv :html/vendor/shopware/storefront/Pagelet/Footer/FooterPageletLoadedEvent.php
+> git ls-files --stage -- /var/www/html/vendor/shopware/storefront/Pagelet/Footer/FooterPageletLoadedEvent.php
+> git cat-file -s cbd74bdd170df880946812d19c1ec2cbdbf4f645
+> git show --textconv :html/vendor/shopware/storefront/Pagelet/Footer/FooterPageletLoader.php
+> git ls-files --stage -- /var/www/html/vendor/shopware/storefront/Pagelet/Footer/FooterPageletLoader.php
+> git cat-file -s 55587a3b33aa08657506cc98946eb67e8a6b7038
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show --textconv :html/custom/plugins/SwagQuickstartTheme/src/Storefront/Pagelet/Example/ExamplePageletLoader.php
+> git ls-files --stage -- /var/www/html/custom/plugins/SwagQuickstartTheme/src/Storefront/Pagelet/Example/ExamplePageletLoader.php
+> git check-ignore -v -z --stdin
+> git show --textconv :html/vendor/shopware/storefront/Pagelet/Footer/FooterPageletLoader.php
+> git ls-files --stage -- /var/www/html/vendor/shopware/storefront/Pagelet/Footer/FooterPageletLoader.php
+> git cat-file -s 55587a3b33aa08657506cc98946eb67e8a6b7038
+> git show --textconv :html/custom/plugins/SwagQuickstartTheme/src/Storefront/Pagelet/Example/ExamplePageletLoader.php
+> git ls-files --stage -- /var/www/html/custom/plugins/SwagQuickstartTheme/src/Storefront/Pagelet/Example/ExamplePageletLoader.php
+> git show --textconv :html/custom/plugins/SwagQuickstartTheme/src/Storefront/Controller/ExampleController.php
+> git ls-files --stage -- /var/www/html/custom/plugins/SwagQuickstartTheme/src/Storefront/Controller/ExampleController.php
+> git cat-file -s 7c24a1635e47f23872a51a770526eea002f42e5e
+> git show --textconv :html/custom/plugins/SwagQuickstartTheme/src/Storefront/Pagelet/Example/ExamplePageletLoader.php
+> git ls-files --stage -- /var/www/html/custom/plugins/SwagQuickstartTheme/src/Storefront/Pagelet/Example/ExamplePageletLoader.php
+> git show --textconv :html/custom/plugins/SwagQuickstartTheme/src/Storefront/Pagelet/Example/ExamplePagelet.php
+> git ls-files --stage -- /var/www/html/custom/plugins/SwagQuickstartTheme/src/Storefront/Pagelet/Example/ExamplePagelet.php
+> git check-ignore -v -z --stdin
+> git show --textconv :html/custom/plugins/SwagQuickstartTheme/src/Storefront/Pagelet/Example/ExamplePageletLoader.php
+> git ls-files --stage -- /var/www/html/custom/plugins/SwagQuickstartTheme/src/Storefront/Pagelet/Example/ExamplePageletLoader.php
+> git show --textconv :html/custom/plugins/SwagQuickstartTheme/src/Storefront/Pagelet/Example/ExamplePagelet.php
+> git ls-files --stage -- /var/www/html/custom/plugins/SwagQuickstartTheme/src/Storefront/Pagelet/Example/ExamplePagelet.php
+> git show --textconv :html/custom/plugins/SwagQuickstartTheme/src/Storefront/Pagelet/Example/ExamplePageletLoadedEvent.php
+> git ls-files --stage -- /var/www/html/custom/plugins/SwagQuickstartTheme/src/Storefront/Pagelet/Example/ExamplePageletLoadedEvent.php
+> git check-ignore -v -z --stdin
+> git show --textconv :html/custom/plugins/SwagQuickstartTheme/src/Storefront/Pagelet/Example/ExamplePagelet.php
+> git ls-files --stage -- /var/www/html/custom/plugins/SwagQuickstartTheme/src/Storefront/Pagelet/Example/ExamplePagelet.php
+> git show --textconv :html/custom/plugins/SwagQuickstartTheme/src/Storefront/Pagelet/Example/ExamplePageletLoadedEvent.php
+> git ls-files --stage -- /var/www/html/custom/plugins/SwagQuickstartTheme/src/Storefront/Pagelet/Example/ExamplePageletLoadedEvent.php
+> git show --textconv :html/custom/plugins/SwagQuickstartTheme/src/Storefront/Page/Example/ExamplePageLoader.php
+> git ls-files --stage -- /var/www/html/custom/plugins/SwagQuickstartTheme/src/Storefront/Page/Example/ExamplePageLoader.php
+> git show --textconv :html/vendor/shopware/storefront/Pagelet/Footer/FooterPagelet.php
+> git ls-files --stage -- /var/www/html/vendor/shopware/storefront/Pagelet/Footer/FooterPagelet.php
+> git cat-file -s 61f2ac913a4d11e5815756978262385f70cd0777
+> git show --textconv :html/custom/plugins/SwagQuickstartTheme/src/Storefront/Controller/ExampleController.php
+> git ls-files --stage -- /var/www/html/custom/plugins/SwagQuickstartTheme/src/Storefront/Controller/ExampleController.php
+> git cat-file -s 7c24a1635e47f23872a51a770526eea002f42e5e
+> git show --textconv :html/custom/plugins/SwagQuickstartTheme/src/Resources/views/storefront/pagelet/example/index.html.twig
+> git ls-files --stage -- /var/www/html/custom/plugins/SwagQuickstartTheme/src/Resources/views/storefront/pagelet/example/index.html.twig
+> git check-ignore -v -z --stdin
+> git show --textconv :html/custom/plugins/SwagQuickstartTheme/src/Resources/views/storefront/Page/Example/index.html.twig
+> git ls-files --stage -- /var/www/html/custom/plugins/SwagQuickstartTheme/src/Resources/views/storefront/Page/Example/index.html.twig
+> git show --textconv :html/custom/plugins/SwagQuickstartTheme/src/Resources/views/storefront/pagelet/example/index.html.twig
+> git ls-files --stage -- /var/www/html/custom/plugins/SwagQuickstartTheme/src/Resources/views/storefront/pagelet/example/index.html.twig
+> git show --textconv :html/custom/plugins/SwagQuickstartTheme/src/Resources/views/storefront/Page/Example/index.html.twig
+> git ls-files --stage -- /var/www/html/custom/plugins/SwagQuickstartTheme/src/Resources/views/storefront/Page/Example/index.html.twig
+> git show --textconv :html/custom/plugins/SwagQuickstartTheme/src/Resources/views/storefront/pagelet/example/index.html.twig
+> git ls-files --stage -- /var/www/html/custom/plugins/SwagQuickstartTheme/src/Resources/views/storefront/pagelet/example/index.html.twig
+> git show --textconv :html/custom/plugins/SwagQuickstartTheme/src/Storefront/Controller/ExampleController.php
+> git ls-files --stage -- /var/www/html/custom/plugins/SwagQuickstartTheme/src/Storefront/Controller/ExampleController.php
+> git cat-file -s 7c24a1635e47f23872a51a770526eea002f42e5e
+> git show --textconv :html/custom/plugins/SwagQuickstartTheme/src/Resources/config/services.xml
+> git ls-files --stage -- /var/www/html/custom/plugins/SwagQuickstartTheme/src/Resources/config/services.xml
+> git cat-file -s a33cdd72bd97a2ff429177642b240220ed0326ae
+> git show --textconv :html/custom/plugins/SwagQuickstartTheme/src/Storefront/Controller/ExampleController.php
+> git ls-files --stage -- /var/www/html/custom/plugins/SwagQuickstartTheme/src/Storefront/Controller/ExampleController.php
+> git cat-file -s 7c24a1635e47f23872a51a770526eea002f42e5e
+> git show --textconv :html/custom/plugins/SwagQuickstartTheme/src/Resources/config/services.xml
+> git ls-files --stage -- /var/www/html/custom/plugins/SwagQuickstartTheme/src/Resources/config/services.xml
+> git cat-file -s a33cdd72bd97a2ff429177642b240220ed0326ae
+> git show --textconv :html/custom/plugins/SwagQuickstartTheme/src/Storefront/Controller/ExampleController.php
+> git ls-files --stage -- /var/www/html/custom/plugins/SwagQuickstartTheme/src/Storefront/Controller/ExampleController.php
+> git cat-file -s 7c24a1635e47f23872a51a770526eea002f42e5e
+> git show --textconv :html/custom/plugins/SwagQuickstartTheme/src/Storefront/Pagelet/Example/ExamplePageletLoader.php
+> git ls-files --stage -- /var/www/html/custom/plugins/SwagQuickstartTheme/src/Storefront/Pagelet/Example/ExamplePageletLoader.php
+> git check-ignore -v -z --stdin
+> git show --textconv :html/custom/plugins/SwagQuickstartTheme/src/Storefront/Controller/ExampleController.php
+> git ls-files --stage -- /var/www/html/custom/plugins/SwagQuickstartTheme/src/Storefront/Controller/ExampleController.php
+> git cat-file -s 7c24a1635e47f23872a51a770526eea002f42e5e
+> git show --textconv :html/custom/plugins/SwagQuickstartTheme/src/Resources/config/services.xml
+> git ls-files --stage -- /var/www/html/custom/plugins/SwagQuickstartTheme/src/Resources/config/services.xml
+> git cat-file -s a33cdd72bd97a2ff429177642b240220ed0326ae
+> git show --textconv :html/custom/plugins/SwagQuickstartTheme/src/Storefront/Controller/ExampleController.php
+> git ls-files --stage -- /var/www/html/custom/plugins/SwagQuickstartTheme/src/Storefront/Controller/ExampleController.php
+> git cat-file -s 7c24a1635e47f23872a51a770526eea002f42e5e
+> git show --textconv :html/custom/plugins/SwagQuickstartTheme/src/Storefront/Page/Example/ExamplePageLoader.php
+> git ls-files --stage -- /var/www/html/custom/plugins/SwagQuickstartTheme/src/Storefront/Page/Example/ExamplePageLoader.php
+> git ls-files --stage -- /var/www/html/custom/plugins/SwagQuickstartTheme/src/Storefront/Page/Example/ExamplePageLoader.php
+> git show --textconv :html/custom/plugins/SwagQuickstartTheme/src/Storefront/Page/Example/ExamplePageLoader.php
+> git ls-files --stage -- /var/www/html/custom/plugins/SwagQuickstartTheme/src/Storefront/Page/Example/ExamplePageLoader.php
+> git show --textconv :html/custom/plugins/SwagQuickstartTheme/src/Storefront/Page/Example/ExamplePageLoader.php
+> git ls-files --stage -- /var/www/html/custom/plugins/SwagQuickstartTheme/src/Storefront/Page/Example/ExamplePageLoader.php
+> git cat-file -s 36bfdb7de599499b722243c58c7e0e6963d4f466
+> git show --textconv :html/custom/plugins/SwagQuickstartTheme/src/Storefront/Page/Example/ExamplePageLoader.php
+> git ls-files --stage -- /var/www/html/custom/plugins/SwagQuickstartTheme/src/Storefront/Page/Example/ExamplePageLoader.php
+> git cat-file -s 36bfdb7de599499b722243c58c7e0e6963d4f466
+> git show --textconv :html/custom/plugins/SwagQuickstartTheme/src/Storefront/Page/Example/ExamplePageLoader.php
+> git ls-files --stage -- /var/www/html/custom/plugins/SwagQuickstartTheme/src/Storefront/Page/Example/ExamplePageLoader.php
+> git cat-file -s 36bfdb7de599499b722243c58c7e0e6963d4f466
+> git show --textconv :html/custom/plugins/SwagQuickstartTheme/src/Storefront/Page/Example/ExamplePageLoader.php
