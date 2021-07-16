@@ -280,6 +280,23 @@
     <parameter key="default_cdn_strategy">physical_filename</parameter>
     <parameter key="env(APP_URL)"></parameter>
     <parameter key="APP_URL">%env(string:APP_URL)%</parameter>
+    <parameter key="shopware.features" type="collection">
+      <parameter key="FEATURE_NEXT_1797">false</parameter>
+      <parameter key="FEATURE_NEXT_11917">false</parameter>
+      <parameter key="FEATURE_NEXT_12608">true</parameter>
+      <parameter key="FEATURE_NEXT_13810">false</parameter>
+      <parameter key="FEATURE_NEXT_6544">false</parameter>
+      <parameter key="FEATURE_NEXT_14872">false</parameter>
+      <parameter key="FEATURE_NEXT_15053">false</parameter>
+      <parameter key="FEATURE_NEXT_14114">false</parameter>
+      <parameter key="FEATURE_NEXT_12455">false</parameter>
+      <parameter key="FEATURE_NEXT_12635">false</parameter>
+      <parameter key="FEATURE_NEXT_14363">false</parameter>
+      <parameter key="FEATURE_NEXT_8225">false</parameter>
+      <parameter key="FEATURE_NEXT_6061">false</parameter>
+      <parameter key="FEATURE_NEXT_14408">false</parameter>
+      <parameter key="FEATURE_NEXT_12437">false</parameter>
+    </parameter>
     <parameter key="shopware.slug.config" type="collection">
       <parameter key="regexp">/([^A-Za-z0-9\.]|-)+/</parameter>
       <parameter key="lowercase">false</parameter>
@@ -9423,11 +9440,17 @@ base-uri 'self';
       <argument>plugins/swag_extension_store</argument>
     </service>
     <service id="SwagQuickstartTheme\Storefront\Controller\ExampleController" class="SwagQuickstartTheme\Storefront\Controller\ExampleController" public="true">
-      <argument type="service" id="Shopware\Storefront\Page\GenericPageLoader"/>
+      <argument type="service" id="SwagQuickstartTheme\Storefront\Page\Example\ExamplePageLoader"/>
       <call method="setContainer">
         <argument type="service" id="service_container"/>
-        <argument type="service" id="debug.event_dispatcher"/>
       </call>
+    </service>
+    <service id="SwagQuickstartTheme\Storefront\Page\Example\ExamplePageLoader" class="SwagQuickstartTheme\Storefront\Page\Example\ExamplePageLoader" public="true">
+      <argument type="service" id="Shopware\Storefront\Page\GenericPageLoader"/>
+      <argument type="service" id="debug.event_dispatcher"/>
+    </service>
+    <service id="SwagQuickstartTheme\Service\ReadingData" class="SwagQuickstartTheme\Service\ReadingData" public="true">
+      <argument type="service" id="product.repository"/>
     </service>
     <service id="swag_quickstart_theme.filesystem.private" class="Shopware\Core\Framework\Adapter\Filesystem\PrefixFilesystem" public="true">
       <argument type="service" id="shopware.filesystem.private"/>

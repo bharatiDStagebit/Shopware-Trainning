@@ -9,7 +9,7 @@ use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\JsonResponse;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Annotation\Route;
-use Shopware\Storefront\Page\GenericPageLoader;
+use SwagQuickstartTheme\Storefront\Page\Example\ExamplePageLoader;
 
 
 /**
@@ -17,26 +17,30 @@ use Shopware\Storefront\Page\GenericPageLoader;
  */
 class ExampleController extends StorefrontController
 {
-  protected $genericPageLoader;
+   /**
+     * @var ExamplePageLoader
+     */
+    private  $examplePageLoader;
 
-  public function __construct(
-      GenericPageLoader $genericPageLoader
-  ) {
-      $this->genericPageLoader = $genericPageLoader;
-  }
-    /**
-    * @Route("/example", name="frontend.example.example", defaults={"XmlHttpRequest"=true},methods={"GET"})
-    */
-    // public function showExample(Request $request, SalesChannelContext $context): Response
-    // {
-    //   $page = $this->genericPageLoader->load($request, $context);
-    //     return $this->renderStorefront('@SwagBasicExample/storefront/page/example/index.html.twig', [
-    //       'example'=>'Hello world','page'=>$page]);
-    // }
-    public function showExamplejson(Request $request, SalesChannelContext $context): jsonResponse
-     {
-      $old_count = $request->query->get('old_count');
-      $new_count=$old_count + 1;
-       return new JsonResponse(['timestamp' => $new_count]);
-     }
+    public function __construct(
+        ExamplePageLoader $examplePageLoader
+    ) {
+        $this->examplePageLoader = $examplePageLoader;
+ 
+    }
+     /**
+    * @Route("/example/category", name="frontend.example.category.page", options={"seo"="false"}, methods={"GET"})
+     */
+    public function examplePage(Request $request, SalesChannelContext $context): Response
+    {
+        $page = $this->examplePageLoader->load($request, $context);
+
+        return $this->renderStorefront('@SwagQuickstartTheme/storefront/Page/Example/index.html.twig', [
+            'example' => 'Hello world',
+            'page' => $page
+        ]);
+    }
+ 
+    
+
 }

@@ -11,11 +11,4 @@
 
 {% endblock %}
 
-{% block base_body %}
- {# We want to set our own icon here #}
-    <h6>Custom icon:</h6>
-   {% sw_icon 'eye-crossed' style {
-    'size': 'lg'
-} %}
-{{ parent() }}
-{% endblock %}
+

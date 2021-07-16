@@ -288,7 +288,7 @@ return [
         '/api/_action/extension-store/list' => [[['_route' => 'api.extension.list', '_controller' => 'SwagExtensionStore\\Controller\\DataController::getExtensionList'], null, ['POST' => 0, 'GET' => 1], null, false, false, null]],
         '/api/_action/extension-store/store-filters' => [[['_route' => 'api.extension.store_filters', '_controller' => 'SwagExtensionStore\\Controller\\DataController::listingFilters'], null, null, null, false, false, null]],
         '/api/_action/extension-store/store-categories' => [[['_route' => 'api.extension.store_categories', '_controller' => 'SwagExtensionStore\\Controller\\DataController::getCategories'], null, null, null, false, false, null]],
-        '/example' => [[['_route' => 'frontend.example.example', 'XmlHttpRequest' => true, '_controller' => 'SwagQuickstartTheme\\Storefront\\Controller\\ExampleController::showExamplejson'], null, ['GET' => 0], null, false, false, null]],
+        '/example/category' => [[['_route' => 'frontend.example.category.page', '_controller' => 'SwagQuickstartTheme\\Storefront\\Controller\\ExampleController::examplePage'], null, ['GET' => 0], null, false, false, null]],
         '/api/_info/me' => [
             [['_route' => 'api.info.me', '_controller' => 'Shopware\\Core\\Framework\\Api\\Controller\\UserController::me'], null, ['GET' => 0], null, false, false, null],
             [['_route' => 'api.change.me', 'auth_required' => true, '_controller' => 'Shopware\\Core\\Framework\\Api\\Controller\\UserController::updateMe'], null, ['PATCH' => 0], null, false, false, null],

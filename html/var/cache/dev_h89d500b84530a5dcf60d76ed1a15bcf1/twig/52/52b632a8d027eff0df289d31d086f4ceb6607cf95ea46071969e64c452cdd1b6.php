@@ -26,7 +26,6 @@ class __TwigTemplate_c6945b6021f963cea0dfdda66b8aed88cf3dfdf9ad0d4134c15ebf0a520
 
         $this->blocks = [
             'base_main' => [$this, 'block_base_main'],
-            'base_body' => [$this, 'block_base_body'],
         ];
     }
 
@@ -89,41 +88,6 @@ class __TwigTemplate_c6945b6021f963cea0dfdda66b8aed88cf3dfdf9ad0d4134c15ebf0a520
 
     }
 
-    // line 14
-    public function block_base_body($context, array $blocks = [])
-    {
-        $macros = $this->macros;
-        $__internal_085b0142806202599c7fe3b329164a92397d8978207a37e79d70b8c52599e33e = $this->extensions["Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension"];
-        $__internal_085b0142806202599c7fe3b329164a92397d8978207a37e79d70b8c52599e33e->enter($__internal_085b0142806202599c7fe3b329164a92397d8978207a37e79d70b8c52599e33e_prof = new \Twig\Profiler\Profile($this->getTemplateName(), "block", "base_body"));
-
-        $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02 = $this->extensions["Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension"];
-        $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02->enter($__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02_prof = new \Twig\Profiler\Profile($this->getTemplateName(), "block", "base_body"));
-
-        // line 15
-        echo " ";
-        // line 16
-        echo "    <h6>Custom icon:</h6>
-   ";
-        // line 17
-        ((function () use ($context, $blocks) {
-            $finder = $this->env->getExtension('Shopware\Core\Framework\Adapter\Twig\InheritanceExtension')->getFinder();
-
-            $includeTemplate = $finder->find($finder->getTemplateName("@Storefront/storefront/utilities/icon.html.twig"));
-
-            return $this->loadTemplate($includeTemplate ?? null, "@SwagQuickstartTheme/storefront/base.html.twig", 17);
-        })())->display(twig_array_merge($context, ["size" => "lg", "name" => "eye-crossed"]));
-        // line 20
-        $this->displayParentBlock("base_body", $context, $blocks);
-        echo "
-";
-        
-        $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02->leave($__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02_prof);
-
-        
-        $__internal_085b0142806202599c7fe3b329164a92397d8978207a37e79d70b8c52599e33e->leave($__internal_085b0142806202599c7fe3b329164a92397d8978207a37e79d70b8c52599e33e_prof);
-
-    }
-
     public function getTemplateName()
     {
         return "@SwagQuickstartTheme/storefront/base.html.twig";
@@ -136,7 +100,7 @@ class __TwigTemplate_c6945b6021f963cea0dfdda66b8aed88cf3dfdf9ad0d4134c15ebf0a520
 
     public function getDebugInfo()
     {
-        return array (  116 => 20,  108 => 17,  105 => 16,  103 => 15,  93 => 14,  79 => 9,  72 => 6,  69 => 4,  59 => 3,  36 => 2,);
+        return array (  78 => 9,  71 => 6,  68 => 4,  58 => 3,  35 => 2,);
     }
 
     public function getSourceContext()
@@ -154,14 +118,7 @@ class __TwigTemplate_c6945b6021f963cea0dfdda66b8aed88cf3dfdf9ad0d4134c15ebf0a520
 
 {% endblock %}
 
-{% block base_body %}
- {# We want to set our own icon here #}
-    <h6>Custom icon:</h6>
-   {% sw_icon 'eye-crossed' style {
-    'size': 'lg'
-} %}
-{{ parent() }}
-{% endblock %}
+
 ", "@SwagQuickstartTheme/storefront/base.html.twig", "/var/www/html/custom/plugins/SwagQuickstartTheme/src/Resources/views/storefront/base.html.twig");
     }
 }

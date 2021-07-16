@@ -4,13 +4,24 @@
            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
            xsi:schemaLocation="http://symfony.com/schema/dic/services http://symfony.com/schema/dic/services/services-1.0.xsd">
 
-    <services>
+<services>
 <service id="SwagQuickstartTheme\Storefront\Controller\ExampleController" public="true">
- <argument type="service" id="Shopware\Storefront\Page\GenericPageLoader"/>
-            <call method="setContainer">
-                <argument type="service" id="service_container"/>
-                <argument type="service" id="event_dispatcher"/>
-            </call>
-        </service>
+    <argument type="service" id="SwagQuickstartTheme\Storefront\Page\Example\ExamplePageLoader" />
+    <call method="setContainer">
+        <argument type="service" id="service_container"/>
+    </call>
+</service>
+
+
+<service id="SwagQuickstartTheme\Storefront\Page\Example\ExamplePageLoader" public="true">
+    <argument type="service" id="Shopware\Storefront\Page\GenericPageLoader" />
+    <argument type="service" id="event_dispatcher"/>
+</service>
+
+<service id="SwagQuickstartTheme\Service\ReadingData" public="true">
+<argument type="service" id="product.repository"/>
+
+</service>
+
     </services>
 </container>

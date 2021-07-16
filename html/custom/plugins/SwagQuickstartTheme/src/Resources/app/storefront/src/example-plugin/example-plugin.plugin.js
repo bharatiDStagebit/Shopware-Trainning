@@ -29,6 +29,7 @@ export default class ExamplePlugin extends Plugin {
 
     let old_count = this.textdiv.innerHTML;
     let url = '/example?old_count='.concat(old_count);
+
     // make the network request and call the `_setContent` function as a callback
     this._client.get(url, this._setContent.bind(this), 'application/json', true)
 
