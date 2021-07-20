@@ -65,21 +65,27 @@ class __TwigTemplate_62b4d9782edd3d7b3c5aab202191b9da131ddddb8ade2a1a1d30df0d766
         $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02->enter($__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02_prof = new \Twig\Profiler\Profile($this->getTemplateName(), "block", "base_content"));
 
         // line 4
-        echo "   
- ";
-        // line 5
-        echo $this->extensions['Symfony\Bridge\Twig\Extension\DumpExtension']->dump($this->env, $context, ($context["example"] ?? null));
-        echo "
-  ";
-        // line 6
         echo $this->extensions['Symfony\Bridge\Twig\Extension\DumpExtension']->dump($this->env, $context);
         echo "
- 
-    ";
-        // line 8
-        echo $this->extensions['Symfony\Bridge\Twig\Extension\DumpExtension']->dump($this->env, $context, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, ($context["page"] ?? null), "categories", [], "any", false, false, false, 8), "entities", [], "any", false, false, false, 8), "elements", [], "any", false, false, false, 8), "name", [], "any", false, false, false, 8));
-        echo "
-  
+  ";
+        // line 5
+        $context["categories"] = twig_get_attribute($this->env, $this->source, ($context["page"] ?? null), "categories", [], "any", false, false, false, 5);
+        // line 6
+        echo "  ";
+        $context['_parent'] = $context;
+        $context['_seq'] = twig_ensure_traversable(($context["categories"] ?? null));
+        foreach ($context['_seq'] as $context["_key"] => $context["category"]) {
+            // line 7
+            echo "    <li>";
+            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, $context["category"], "translated", [], "any", false, false, false, 7), "name", [], "any", false, false, false, 7), "html", null, true);
+            echo "</li>
+  ";
+        }
+        $_parent = $context['_parent'];
+        unset($context['_seq'], $context['_iterated'], $context['_key'], $context['category'], $context['_parent'], $context['loop']);
+        $context = array_intersect_key($context, $_parent) + $_parent;
+        // line 9
+        echo "  
  <template data-example-plugin></template>
       <div>
         <h1>Swag AJAX Example</h1>
@@ -111,7 +117,7 @@ class __TwigTemplate_62b4d9782edd3d7b3c5aab202191b9da131ddddb8ade2a1a1d30df0d766
 
     public function getDebugInfo()
     {
-        return array (  80 => 8,  75 => 6,  71 => 5,  68 => 4,  58 => 3,  35 => 2,);
+        return array (  88 => 9,  79 => 7,  74 => 6,  72 => 5,  68 => 4,  58 => 3,  35 => 2,);
     }
 
     public function getSourceContext()
@@ -119,11 +125,11 @@ class __TwigTemplate_62b4d9782edd3d7b3c5aab202191b9da131ddddb8ade2a1a1d30df0d766
         return new Source("
 {% sw_extends '@Storefront/storefront/base.html.twig' %}
 {% block base_content %}
-   
- {{dump(example)}}
-  {{dump()}}
- 
-    {{dump(page.categories.entities.elements.name)}}
+{{dump()}}
+  {% set categories = page.categories %}
+  {% for category in categories %}
+    <li>{{ category.translated.name }}</li>
+  {% endfor %}
   
  <template data-example-plugin></template>
       <div>

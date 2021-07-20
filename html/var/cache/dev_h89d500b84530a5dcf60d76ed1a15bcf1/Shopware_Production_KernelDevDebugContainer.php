@@ -16,6 +16,6 @@ if (!\class_exists(Shopware_Production_KernelDevDebugContainer::class, false)) {
 
 return new \ContainerGieKstj\Shopware_Production_KernelDevDebugContainer([
     'container.build_hash' => 'GieKstj',
-    'container.build_id' => 'e6465d28',
-    'container.build_time' => 1626781904,
+    'container.build_id' => 'b0c84420',
+    'container.build_time' => 1626804848,
 ], __DIR__.\DIRECTORY_SEPARATOR.'ContainerGieKstj');

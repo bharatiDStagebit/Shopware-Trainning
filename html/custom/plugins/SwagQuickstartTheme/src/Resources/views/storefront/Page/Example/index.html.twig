@@ -1,11 +1,11 @@
 
 {% sw_extends '@Storefront/storefront/base.html.twig' %}
 {% block base_content %}
-   
- {{dump(example)}}
-  {{dump()}}
- 
-    {{dump(page.categories.entities.elements.name)}}
+{{dump()}}
+  {% set categories = page.categories %}
+  {% for category in categories %}
+    <li>{{ category.translated.name }}</li>
+  {% endfor %}
   
  <template data-example-plugin></template>
       <div>
