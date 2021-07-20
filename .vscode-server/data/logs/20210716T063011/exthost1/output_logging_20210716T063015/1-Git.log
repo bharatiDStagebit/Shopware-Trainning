@@ -211,3 +211,12 @@ Open repository: /var/www
 > git ls-files --stage -- /var/www/html/custom/plugins/SwagQuickstartTheme/src/Storefront/Page/Example/ExamplePageLoader.php
 > git cat-file -s 36bfdb7de599499b722243c58c7e0e6963d4f466
 > git show --textconv :html/custom/plugins/SwagQuickstartTheme/src/Storefront/Page/Example/ExamplePageLoader.php
+> git ls-files --stage -- /var/www/html/custom/plugins/SwagQuickstartTheme/src/Storefront/Page/Example/ExamplePageLoader.php
+> git cat-file -s 36bfdb7de599499b722243c58c7e0e6963d4f466
+> git show --textconv :html/custom/plugins/SwagQuickstartTheme/src/Storefront/Page/Example/ExamplePageLoader.php
+> git ls-files --stage -- /var/www/html/custom/plugins/SwagQuickstartTheme/src/Storefront/Page/Example/ExamplePageLoader.php
+> git cat-file -s 36bfdb7de599499b722243c58c7e0e6963d4f466
+> git show --textconv :html/custom/plugins/SwagQuickstartTheme/src/Storefront/Page/Example/ExamplePageLoader.php
+> git ls-files --stage -- /var/www/html/custom/plugins/SwagQuickstartTheme/src/Storefront/Page/Example/ExamplePageLoader.php
+> git cat-file -s 36bfdb7de599499b722243c58c7e0e6963d4f466
+> git show --textconv :html/custom/plugins/SwagQuickstartTheme/src/Storefront/Page/Example/ExamplePageLoader.php

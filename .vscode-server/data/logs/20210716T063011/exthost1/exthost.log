@@ -22,3 +22,6 @@
 [2021-07-16 06:30:16.003] [exthost] [info] ExtensionService#_doActivateExtension ms-vscode.js-debug {"startup":false,"extensionId":{"value":"ms-vscode.js-debug","_lower":"ms-vscode.js-debug"},"activationEvent":"onCommand:extension.js-debug.clearAutoAttachVariables"}
 [2021-07-16 06:30:16.003] [exthost] [info] ExtensionService#loadCommonJSModule file:///var/www/.vscode-server/bin/2aeda6b18e13c4f4f9edf6667158a6b8d408874b/extensions/ms-vscode.js-debug/src/extension.js
 [2021-07-16 06:31:47.350] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 5000
+[2021-07-16 19:13:02.453] [exthost] [info] extension host terminating: received terminate message from renderer
+[2021-07-16 19:13:02.483] [exthost] [info] Lock '/var/www/.vscode-server/data/User/workspaceStorage/c442117acadd182bd5a664e886124edc/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+[2021-07-16 19:13:03.804] [exthost] [info] exiting with code 0

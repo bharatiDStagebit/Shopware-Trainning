@@ -10,7 +10,7 @@ if (in_array(PHP_SAPI, ['cli', 'phpdbg'], true)) {
 }
 
 require dirname(__DIR__, 3).'/vendor/autoload.php';
-require __DIR__.'/ContainerJ5GS5l9/Shopware_Production_KernelDevDebugContainer.php';
+require __DIR__.'/ContainerGieKstj/Shopware_Production_KernelDevDebugContainer.php';
 
 $classes = [];
 $classes[] = 'Symfony\Bundle\FrameworkBundle\FrameworkBundle';
@@ -1268,7 +1268,6 @@ $classes[] = 'SwagExtensionStore\Controller\DataController';
 $classes[] = 'SwagExtensionStore\Services\StoreDataProvider';
 $classes[] = 'SwagExtensionStore\Services\CategoryProvider';
 $classes[] = 'SwagExtensionStore\Services\StoreClient';
-$classes[] = 'SwagQuickstartTheme\Service\ReadingData';
 $classes[] = 'SwagQuickstartTheme\Storefront\Controller\ExampleController';
 $classes[] = 'SwagQuickstartTheme\Storefront\Page\Example\ExamplePageLoader';
 $classes[] = 'Swag\Markets\Controller\AmazonConnectionAssistantController';

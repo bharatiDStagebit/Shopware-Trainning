@@ -57,3 +57,23 @@ git push
 git branch
 git status
 git commit -a
+git push
+    git push --set-upstream origin bdeore/SB-373-202107141224
+git commit -am "add custom page"
+git add .
+git status
+git push
+git status
+git commit -am "push"
+git push
+git status
+git add .
+/usr/bin
+cd usr/bin
+ls nod* -ls
+ls
+ls
+node --version
+ssh dockware@localhost
+ssh dockware@localhost
+bin/console

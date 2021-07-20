@@ -3,22 +3,20 @@
 namespace SwagQuickstartTheme\Storefront\Page\Example;
 
 use Shopware\Storefront\Page\Page;
-use SwagQuickstartTheme\Core\Content\Example\ExampleEntity;
+
 
 class ExamplePage extends Page
 {
-    /**
-     * @var ExampleEntity
-     */
-    protected $exampleData;
+    
+    public $categories;
 
-    public function getExampleData(): ExampleEntity
+    public function getCategories()
     {
-        return $this->exampleData;
+        return $this->categories;
     }
 
-    public function setExampleData(ExampleEntity $exampleData): void
+    public function setCategories($categories)
     {
-        $this->exampleData = $exampleData;
+        $this->categories = $categories;
     }
 }

@@ -7,6 +7,7 @@
 <services>
 <service id="SwagQuickstartTheme\Storefront\Controller\ExampleController" public="true">
     <argument type="service" id="SwagQuickstartTheme\Storefront\Page\Example\ExamplePageLoader" />
+    <argument type="service" id="category.repository"/>
     <call method="setContainer">
         <argument type="service" id="service_container"/>
     </call>
@@ -14,14 +15,10 @@
 
 
 <service id="SwagQuickstartTheme\Storefront\Page\Example\ExamplePageLoader" public="true">
-    <argument type="service" id="Shopware\Storefront\Page\GenericPageLoader" />
+    <argument type="service" id="Shopware\Storefront\Page\GenericPageLoader" />  
     <argument type="service" id="event_dispatcher"/>
+    <argument type="service" id="category.repository" /> 
 </service>
 
-<service id="SwagQuickstartTheme\Service\ReadingData" public="true">
-<argument type="service" id="product.repository"/>
-
-</service>
-
-    </services>
+</services>
 </container>

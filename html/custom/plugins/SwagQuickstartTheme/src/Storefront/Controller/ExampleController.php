@@ -10,6 +10,7 @@ use Symfony\Component\HttpFoundation\JsonResponse;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Annotation\Route;
 use SwagQuickstartTheme\Storefront\Page\Example\ExamplePageLoader;
+use Shopware\Core\Framework\DataAbstractionLayer\EntityRepositoryInterface;
 
 
 /**
@@ -17,19 +18,30 @@ use SwagQuickstartTheme\Storefront\Page\Example\ExamplePageLoader;
  */
 class ExampleController extends StorefrontController
 {
-   /**
+
+    /**
      * @var ExamplePageLoader
      */
     private  $examplePageLoader;
+    
+    /**
+     * @var EntityRepositoryInterface
+     */
+    private $categoryRepository;
 
     public function __construct(
-        ExamplePageLoader $examplePageLoader
+        ExamplePageLoader $examplePageLoader,
+        EntityRepositoryInterface $categoryRepository
+       
+     
     ) {
         $this->examplePageLoader = $examplePageLoader;
+        $this->categoryRepository = $categoryRepository;
+        
  
     }
      /**
-    * @Route("/example/category", name="frontend.example.category.page", options={"seo"="false"}, methods={"GET"})
+    * @Route("/example/category", name="frontend.example.category.page", methods={"GET"})
      */
     public function examplePage(Request $request, SalesChannelContext $context): Response
     {
