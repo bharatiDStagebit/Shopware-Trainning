@@ -7,69 +7,15 @@
 * as described in the license https://aka.ms/vscode-remote/license
 *
 
-Extension host agent listening on 43613
+Extension host agent listening on 34229
 
-[19:02:03] Extension host agent started.
-[19:02:03] [127.0.0.1][d3ffac0c][ManagementConnection] New connection established.
-[19:02:03] [127.0.0.1][d376a31f][ExtensionHostConnection] New connection established.
-[19:02:03] [127.0.0.1][d376a31f][ExtensionHostConnection] <958> Launched Extension Host Process.
-[19:02:41] [127.0.0.1][2731710d][ManagementConnection] New connection established.
-[19:02:41] [127.0.0.1][996286ff][ExtensionHostConnection] New connection established.
-[19:02:41] [127.0.0.1][996286ff][ExtensionHostConnection] <1053> Launched Extension Host Process.
-[19:02:41] Resolved variables received without matching request 26
-[19:02:41] Resolved variables received without matching request 27
-[19:02:41] Resolved variables received without matching request 28
-[19:02:41] Resolved variables received without matching request 29
-[19:02:41] Resolved variables received without matching request 30
-[19:02:41] Resolved variables received without matching request 31
-[19:02:41] Resolved variables received without matching request 32
-[19:02:42] Resolved variables received without matching request 33
-[19:02:42] Resolved variables received without matching request 34
-[19:02:42] Resolved variables received without matching request 35
-[19:02:42] Resolved variables received without matching request 36
-[19:02:42] Resolved variables received without matching request 37
-[19:02:42] Resolved variables received without matching request 38
-[19:02:42] Resolved variables received without matching request 39
-[19:02:42] Resolved variables received without matching request 40
-[19:02:43] Resolved variables received without matching request 41
-[19:02:43] Resolved variables received without matching request 42
-[19:02:43] Resolved variables received without matching request 43
-[19:02:43] Resolved variables received without matching request 44
-[19:02:43] Resolved variables received without matching request 45
-[19:02:45] Resolved variables received without matching request 46
-[19:02:45] Resolved variables received without matching request 47
-[19:02:45] Resolved variables received without matching request 48
-[19:02:45] Resolved variables received without matching request 49
-[19:02:45] Resolved variables received without matching request 50
-[19:02:54] [127.0.0.1][2731710d][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
-[19:02:55] [127.0.0.1][996286ff][ExtensionHostConnection] <1053> Extension Host Process exited with code: 0, signal: null.
-[19:03:01] [127.0.0.1][3a0a8b86][ManagementConnection] New connection established.
-[19:03:01] [127.0.0.1][876be916][ExtensionHostConnection] New connection established.
-[19:03:01] [127.0.0.1][876be916][ExtensionHostConnection] <1155> Launched Extension Host Process.
-[19:03:02] Resolved variables received without matching request 51
-[19:03:02] Resolved variables received without matching request 52
-[19:03:02] Resolved variables received without matching request 53
-[19:03:02] Resolved variables received without matching request 54
-[19:03:02] Resolved variables received without matching request 55
-[19:03:02] Resolved variables received without matching request 56
-[19:03:03] Resolved variables received without matching request 57
-[19:03:03] Resolved variables received without matching request 58
-[19:03:03] Resolved variables received without matching request 59
-[19:03:03] Resolved variables received without matching request 60
-[19:03:03] Resolved variables received without matching request 61
-[19:03:03] Resolved variables received without matching request 62
-[19:03:03] Resolved variables received without matching request 63
-[19:03:03] Resolved variables received without matching request 64
-[19:03:03] Resolved variables received without matching request 65
-[19:03:03] Resolved variables received without matching request 66
-[19:03:03] Resolved variables received without matching request 67
-[19:03:03] Resolved variables received without matching request 68
-[19:03:04] Resolved variables received without matching request 69
-[19:03:04] Resolved variables received without matching request 70
-[19:03:05] Resolved variables received without matching request 71
-[19:03:05] Resolved variables received without matching request 72
-[19:03:05] Resolved variables received without matching request 73
-[19:03:05] Resolved variables received without matching request 74
-[19:03:05] Resolved variables received without matching request 75
-[19:03:11] [127.0.0.1][d3ffac0c][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
-[19:03:12] [127.0.0.1][d376a31f][ExtensionHostConnection] <958> Extension Host Process exited with code: 0, signal: null.
+[03:42:48] Extension host agent started.
+[03:42:48] [127.0.0.1][f69282f2][ManagementConnection] New connection established.
+[03:42:48] [127.0.0.1][a5e8799f][ExtensionHostConnection] New connection established.
+[03:42:48] [127.0.0.1][a5e8799f][ExtensionHostConnection] <1062> Launched Extension Host Process.
+rejected promise not handled within 1 second: Error: Could not find pty with id "2"
+stack trace: Error: Could not find pty with id "2",    at y._throwIfNoPty (/var/www/.vscode-server/bin/c3f126316369cd610563c75b1b1725e0679adfb3/out/vs/platform/terminal/node/ptyHostMain.js:12:49364),    at y.updateTitle (/var/www/.vscode-server/bin/c3f126316369cd610563c75b1b1725e0679adfb3/out/vs/platform/terminal/node/ptyHostMain.js:12:46404),    at Object.call (/var/www/.vscode-server/bin/c3f126316369cd610563c75b1b1725e0679adfb3/out/vs/platform/terminal/node/ptyHostMain.js:11:8338),    at y.onPromise (/var/www/.vscode-server/bin/c3f126316369cd610563c75b1b1725e0679adfb3/out/vs/platform/terminal/node/ptyHostMain.js:10:49795),    at y.onRawMessage (/var/www/.vscode-server/bin/c3f126316369cd610563c75b1b1725e0679adfb3/out/vs/platform/terminal/node/ptyHostMain.js:10:49154),    at /var/www/.vscode-server/bin/c3f126316369cd610563c75b1b1725e0679adfb3/out/vs/platform/terminal/node/ptyHostMain.js:10:48407,    at T.fire (/var/www/.vscode-server/bin/c3f126316369cd610563c75b1b1725e0679adfb3/out/vs/platform/terminal/node/ptyHostMain.js:8:1726),    at process.U (/var/www/.vscode-server/bin/c3f126316369cd610563c75b1b1725e0679adfb3/out/vs/platform/terminal/node/ptyHostMain.js:6:31321),    at process.emit (events.js:315:20),    at emit (internal/child_process.js:903:12),    at processTicksAndRejections (internal/process/task_queues.js:81:21)
+[Error: Could not find pty with id "2",    at y._throwIfNoPty (/var/www/.vscode-server/bin/c3f126316369cd610563c75b1b1725e0679adfb3/out/vs/platform/terminal/node/ptyHostMain.js:12:49364),    at y.updateTitle (/var/www/.vscode-server/bin/c3f126316369cd610563c75b1b1725e0679adfb3/out/vs/platform/terminal/node/ptyHostMain.js:12:46404),    at Object.call (/var/www/.vscode-server/bin/c3f126316369cd610563c75b1b1725e0679adfb3/out/vs/platform/terminal/node/ptyHostMain.js:11:8338),    at y.onPromise (/var/www/.vscode-server/bin/c3f126316369cd610563c75b1b1725e0679adfb3/out/vs/platform/terminal/node/ptyHostMain.js:10:49795),    at y.onRawMessage (/var/www/.vscode-server/bin/c3f126316369cd610563c75b1b1725e0679adfb3/out/vs/platform/terminal/node/ptyHostMain.js:10:49154),    at /var/www/.vscode-server/bin/c3f126316369cd610563c75b1b1725e0679adfb3/out/vs/platform/terminal/node/ptyHostMain.js:10:48407,    at T.fire (/var/www/.vscode-server/bin/c3f126316369cd610563c75b1b1725e0679adfb3/out/vs/platform/terminal/node/ptyHostMain.js:8:1726),    at process.U (/var/www/.vscode-server/bin/c3f126316369cd610563c75b1b1725e0679adfb3/out/vs/platform/terminal/node/ptyHostMain.js:6:31321),    at process.emit (events.js:315:20),    at emit (internal/child_process.js:903:12),    at processTicksAndRejections (internal/process/task_queues.js:81:21)]
+rejected promise not handled within 1 second: Error: Could not find pty with id "2"
+stack trace: Error: Could not find pty with id "2",    at y._throwIfNoPty (/var/www/.vscode-server/bin/c3f126316369cd610563c75b1b1725e0679adfb3/out/vs/platform/terminal/node/ptyHostMain.js:12:49364),    at y.updateIcon (/var/www/.vscode-server/bin/c3f126316369cd610563c75b1b1725e0679adfb3/out/vs/platform/terminal/node/ptyHostMain.js:12:46464),    at Object.call (/var/www/.vscode-server/bin/c3f126316369cd610563c75b1b1725e0679adfb3/out/vs/platform/terminal/node/ptyHostMain.js:11:8338),    at y.onPromise (/var/www/.vscode-server/bin/c3f126316369cd610563c75b1b1725e0679adfb3/out/vs/platform/terminal/node/ptyHostMain.js:10:49795),    at y.onRawMessage (/var/www/.vscode-server/bin/c3f126316369cd610563c75b1b1725e0679adfb3/out/vs/platform/terminal/node/ptyHostMain.js:10:49154),    at /var/www/.vscode-server/bin/c3f126316369cd610563c75b1b1725e0679adfb3/out/vs/platform/terminal/node/ptyHostMain.js:10:48407,    at T.fire (/var/www/.vscode-server/bin/c3f126316369cd610563c75b1b1725e0679adfb3/out/vs/platform/terminal/node/ptyHostMain.js:8:1726),    at process.U (/var/www/.vscode-server/bin/c3f126316369cd610563c75b1b1725e0679adfb3/out/vs/platform/terminal/node/ptyHostMain.js:6:31321),    at process.emit (events.js:315:20),    at emit (internal/child_process.js:903:12),    at processTicksAndRejections (internal/process/task_queues.js:81:21)
+[Error: Could not find pty with id "2",    at y._throwIfNoPty (/var/www/.vscode-server/bin/c3f126316369cd610563c75b1b1725e0679adfb3/out/vs/platform/terminal/node/ptyHostMain.js:12:49364),    at y.updateIcon (/var/www/.vscode-server/bin/c3f126316369cd610563c75b1b1725e0679adfb3/out/vs/platform/terminal/node/ptyHostMain.js:12:46464),    at Object.call (/var/www/.vscode-server/bin/c3f126316369cd610563c75b1b1725e0679adfb3/out/vs/platform/terminal/node/ptyHostMain.js:11:8338),    at y.onPromise (/var/www/.vscode-server/bin/c3f126316369cd610563c75b1b1725e0679adfb3/out/vs/platform/terminal/node/ptyHostMain.js:10:49795),    at y.onRawMessage (/var/www/.vscode-server/bin/c3f126316369cd610563c75b1b1725e0679adfb3/out/vs/platform/terminal/node/ptyHostMain.js:10:49154),    at /var/www/.vscode-server/bin/c3f126316369cd610563c75b1b1725e0679adfb3/out/vs/platform/terminal/node/ptyHostMain.js:10:48407,    at T.fire (/var/www/.vscode-server/bin/c3f126316369cd610563c75b1b1725e0679adfb3/out/vs/platform/terminal/node/ptyHostMain.js:8:1726),    at process.U (/var/www/.vscode-server/bin/c3f126316369cd610563c75b1b1725e0679adfb3/out/vs/platform/terminal/node/ptyHostMain.js:6:31321),    at process.emit (events.js:315:20),    at emit (internal/child_process.js:903:12),    at processTicksAndRejections (internal/process/task_queues.js:81:21)]

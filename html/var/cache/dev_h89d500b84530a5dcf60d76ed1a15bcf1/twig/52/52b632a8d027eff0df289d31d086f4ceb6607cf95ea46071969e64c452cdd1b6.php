@@ -64,15 +64,10 @@ class __TwigTemplate_c6945b6021f963cea0dfdda66b8aed88cf3dfdf9ad0d4134c15ebf0a520
         $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02 = $this->extensions["Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension"];
         $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02->enter($__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02_prof = new \Twig\Profiler\Profile($this->getTemplateName(), "block", "base_main"));
 
-        // line 4
-        echo "<h2>Asset:</h2>
-";
         // line 6
-        echo " <img src=\"";
-        echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("bundles/swagquickstarttheme/image.jpg", "asset"), "html", null, true);
-        echo "\"
-
-
+        echo " ";
+        // line 8
+        echo "
     ";
         // line 9
         $this->displayParentBlock("base_main", $context, $blocks);
@@ -100,7 +95,7 @@ class __TwigTemplate_c6945b6021f963cea0dfdda66b8aed88cf3dfdf9ad0d4134c15ebf0a520
 
     public function getDebugInfo()
     {
-        return array (  78 => 9,  71 => 6,  68 => 4,  58 => 3,  35 => 2,);
+        return array (  73 => 9,  70 => 8,  68 => 6,  58 => 3,  35 => 2,);
     }
 
     public function getSourceContext()
@@ -108,10 +103,10 @@ class __TwigTemplate_c6945b6021f963cea0dfdda66b8aed88cf3dfdf9ad0d4134c15ebf0a520
         return new Source("{% sw_extends '@Storefront/storefront/base.html.twig' %}
 
 {% block base_main %}
-<h2>Asset:</h2>
+{# <h2>Asset:</h2> #}
 {#Using asset function to display our custom assets#}
- <img src=\"{{ asset('bundles/swagquickstarttheme/image.jpg', 'asset') }}\"
-
+ {# <img src=\"{{ asset('bundles/swagquickstarttheme/image.jpg', 'asset') }}\"
+/> #}
 
     {{ parent() }}
 

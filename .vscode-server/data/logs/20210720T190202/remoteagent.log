@@ -72,3 +72,7 @@
 [2021-07-20 19:03:05.919] [remoteagent] [warning] Resolved variables received without matching request 75
 [2021-07-20 19:03:11.025] [remoteagent] [info] [127.0.0.1][d3ffac0c][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
 [2021-07-20 19:03:12.056] [remoteagent] [info] [127.0.0.1][d376a31f][ExtensionHostConnection] <958> Extension Host Process exited with code: 0, signal: null.
+[2021-07-20 23:10:06.069] [remoteagent] [warning] No ptyHost heartbeat after 6 seconds
+[2021-07-21 04:47:35.387] [remoteagent] [warning] No ptyHost heartbeat after 6 seconds
+[2021-07-21 05:53:31.069] [remoteagent] [info] [127.0.0.1][3a0a8b86][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+[2021-07-21 05:53:57.372] [remoteagent] [warning] No ptyHost heartbeat after 6 seconds

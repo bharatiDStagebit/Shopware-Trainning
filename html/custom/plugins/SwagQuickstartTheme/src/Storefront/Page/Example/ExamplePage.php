@@ -19,4 +19,5 @@ class ExamplePage extends Page
     {
         $this->categories = $categories;
     }
+    
 }

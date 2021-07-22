@@ -1,20 +1,15 @@
 
 {% sw_extends '@Storefront/storefront/base.html.twig' %}
 {% block base_content %}
-{{dump()}}
+
+    <div data-example-plugin>
+      <div id="ajax-display"></div>
+          <button id="ajax-button">Load Static Data</button>
+      </div>
+</br>
+<h3>Our Categories</h3>
   {% set categories = page.categories %}
   {% for category in categories %}
     <li>{{ category.translated.name }}</li>
   {% endfor %}
-  
- <template data-example-plugin></template>
-      <div>
-        <h1>Swag AJAX Example</h1>
-
-        <div  data-example-plugin>
-            <div id="ajax-display"></div>
-            <button id="ajax-button">Button</button>
-        </div>
-        
-  
 {% endblock %}

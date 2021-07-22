@@ -42,8 +42,7 @@ class ExamplePageLoader
     {
         $page = $this->genericPageLoader->load($request, $salesChannelContext);
         $page = ExamplePage::createFrom($page);
-
-       
+        
         $criteria = new Criteria();
         $getCategories = $this->categoryRepository->search($criteria, $salesChannelContext->getContext());
         // echo "<pre>";

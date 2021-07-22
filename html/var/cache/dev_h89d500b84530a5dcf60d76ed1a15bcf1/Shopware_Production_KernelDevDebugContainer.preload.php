@@ -10,7 +10,7 @@ if (in_array(PHP_SAPI, ['cli', 'phpdbg'], true)) {
 }
 
 require dirname(__DIR__, 3).'/vendor/autoload.php';
-require __DIR__.'/ContainerGieKstj/Shopware_Production_KernelDevDebugContainer.php';
+require __DIR__.'/ContainerTU38HS0/Shopware_Production_KernelDevDebugContainer.php';
 
 $classes = [];
 $classes[] = 'Symfony\Bundle\FrameworkBundle\FrameworkBundle';
@@ -873,6 +873,8 @@ $classes[] = 'Shopware\Core\Framework\Log\LoggingService';
 $classes[] = 'Shopware\Core\Framework\Log\ScheduledTask\LogCleanupTask';
 $classes[] = 'Shopware\Core\Framework\Log\ScheduledTask\LogCleanupTaskHandler';
 $classes[] = 'Shopware\Core\Framework\MessageQueue\Api\ConsumeMessagesController';
+$classes[] = 'Symfony\Component\Messenger\EventListener\StopWorkerOnSigtermSignalListener';
+$classes[] = 'Symfony\Component\Messenger\EventListener\DispatchPcntlSignalListener';
 $classes[] = 'Shopware\Core\Framework\MessageQueue\Subscriber\EarlyReturnMessagesListener';
 $classes[] = 'Shopware\Core\Framework\MessageQueue\DeadMessage\DeadMessageDefinition';
 $classes[] = 'Shopware\Core\Framework\MessageQueue\Handler\EncryptedMessageHandler';
@@ -1268,8 +1270,10 @@ $classes[] = 'SwagExtensionStore\Controller\DataController';
 $classes[] = 'SwagExtensionStore\Services\StoreDataProvider';
 $classes[] = 'SwagExtensionStore\Services\CategoryProvider';
 $classes[] = 'SwagExtensionStore\Services\StoreClient';
+$classes[] = 'SwagQuickstartTheme\Service\AddDataToPage';
 $classes[] = 'SwagQuickstartTheme\Storefront\Controller\ExampleController';
 $classes[] = 'SwagQuickstartTheme\Storefront\Page\Example\ExamplePageLoader';
+$classes[] = 'SwagQuickstartTheme\Storefront\Pagelet\Example\ExamplePageletLoader';
 $classes[] = 'Swag\Markets\Controller\AmazonConnectionAssistantController';
 $classes[] = 'Swag\Markets\Controller\Api\ConfigController';
 $classes[] = 'Swag\Markets\Service\IntegrationUserService';
@@ -1378,7 +1382,6 @@ $classes[] = 'Enqueue\Client\ConsumptionExtension\FlushSpoolProducerExtension';
 $classes[] = 'Enqueue\Client\RouterProcessor';
 $classes[] = 'Enqueue\Client\SpoolProducer';
 $classes[] = 'Enqueue\Consumption\Extension\ReplyExtension';
-$classes[] = 'Enqueue\Consumption\Extension\SignalExtension';
 $classes[] = 'Enqueue\MessengerAdapter\QueueInteropTransportFactory';
 $classes[] = 'Interop\Queue\ConnectionFactory';
 $classes[] = 'Shopware\Core\Framework\MessageQueue\Enqueue\ConnectionFactoryFactory';
@@ -1427,9 +1430,7 @@ $classes[] = 'Symfony\Component\Messenger\TraceableMessageBus';
 $classes[] = 'Shopware\Core\Framework\MessageQueue\MonitoringBusDecorator';
 $classes[] = 'Symfony\Component\Messenger\MessageBus';
 $classes[] = 'Symfony\Component\Messenger\EventListener\AddErrorDetailsStampListener';
-$classes[] = 'Symfony\Component\Messenger\EventListener\DispatchPcntlSignalListener';
 $classes[] = 'Symfony\Component\Messenger\EventListener\StopWorkerOnRestartSignalListener';
-$classes[] = 'Symfony\Component\Messenger\EventListener\StopWorkerOnSigtermSignalListener';
 $classes[] = 'Symfony\Component\Messenger\Middleware\DispatchAfterCurrentBusMiddleware';
 $classes[] = 'Symfony\Component\Messenger\Middleware\FailedMessageProcessingMiddleware';
 $classes[] = 'Symfony\Component\Messenger\Middleware\RejectRedeliveredMessageMiddleware';
@@ -1576,24 +1577,4 @@ $classes[] = 'Symfony\Bundle\WebProfilerBundle\Csp\ContentSecurityPolicyHandler'
 $classes[] = 'Symfony\Bundle\WebProfilerBundle\Csp\NonceGenerator';
 $classes[] = 'Symfony\Bundle\WebProfilerBundle\EventListener\WebDebugToolbarListener';
 
-Preloader::preload($classes);
-
-$classes = [];
-$classes[] = 'Symfony\\Component\\Routing\\Generator\\CompiledUrlGenerator';
-$classes[] = 'Symfony\\Bundle\\FrameworkBundle\\Routing\\RedirectableCompiledUrlMatcher';
-$classes[] = 'Shopware\\Core\\Framework\\Routing\\Annotation\\Since';
-$classes[] = 'Shopware\\Core\\Framework\\Routing\\Annotation\\RouteScope';
-$classes[] = 'Symfony\\Component\\Routing\\Annotation\\Route';
-$classes[] = 'Shopware\\Core\\Framework\\Routing\\Annotation\\Acl';
-$classes[] = 'Shopware\\Storefront\\Framework\\Cache\\Annotation\\HttpCache';
-$classes[] = 'OpenApi\\Annotations\\Get';
-$classes[] = 'OpenApi\\Annotations\\Parameter';
-$classes[] = 'OpenApi\\Annotations\\Schema';
-$classes[] = 'OpenApi\\Context';
-$classes[] = 'OpenApi\\Annotations\\Response';
-$classes[] = 'OpenApi\\Annotations\\JsonContent';
-$classes[] = 'OpenApi\\Annotations\\Items';
-$classes[] = 'OpenApi\\Annotations\\Property';
-$classes[] = 'Shopware\\Core\\Framework\\Routing\\Annotation\\LoginRequired';
-$classes[] = 'Shopware\\Storefront\\Framework\\Captcha\\Annotation\\Captcha';
 Preloader::preload($classes);

@@ -9424,6 +9424,7 @@ base-uri 'self';
     </service>
     <service id="SwagQuickstartTheme\Storefront\Controller\ExampleController" class="SwagQuickstartTheme\Storefront\Controller\ExampleController" public="true">
       <argument type="service" id="SwagQuickstartTheme\Storefront\Page\Example\ExamplePageLoader"/>
+      <argument type="service" id="SwagQuickstartTheme\Storefront\Pagelet\Example\ExamplePageletLoader"/>
       <argument type="service" id="category.repository"/>
       <call method="setContainer">
         <argument type="service" id="service_container"/>
@@ -9433,6 +9434,14 @@ base-uri 'self';
       <argument type="service" id="Shopware\Storefront\Page\GenericPageLoader"/>
       <argument type="service" id="debug.event_dispatcher"/>
       <argument type="service" id="category.repository"/>
+    </service>
+    <service id="SwagQuickstartTheme\Storefront\Pagelet\Example\ExamplePageletLoader" class="SwagQuickstartTheme\Storefront\Pagelet\Example\ExamplePageletLoader" public="true">
+      <argument type="service" id="debug.event_dispatcher"/>
+      <argument type="service" id="category.repository"/>
+    </service>
+    <service id="SwagQuickstartTheme\Service\AddDataToPage" class="SwagQuickstartTheme\Service\AddDataToPage">
+      <tag name="kernel.event_subscriber" event="product.loaded"/>
+      <argument type="service" id="product.repository"/>
     </service>
     <service id="swag_quickstart_theme.filesystem.private" class="Shopware\Core\Framework\Adapter\Filesystem\PrefixFilesystem" public="true">
       <argument type="service" id="shopware.filesystem.private"/>
@@ -13297,6 +13306,14 @@ base-uri 'self';
         <argument type="collection">
           <argument type="service_closure" id="DockwareSamplePlugin\Subscriber\Storefront\Subscriber"/>
           <argument>onStorefrontRender</argument>
+        </argument>
+        <argument>0</argument>
+      </call>
+      <call method="addListener">
+        <argument>Shopware\Storefront\Pagelet\Footer\FooterPageletLoadedEvent</argument>
+        <argument type="collection">
+          <argument type="service_closure" id="SwagQuickstartTheme\Service\AddDataToPage"/>
+          <argument>addActiveProductCount</argument>
         </argument>
         <argument>0</argument>
       </call>

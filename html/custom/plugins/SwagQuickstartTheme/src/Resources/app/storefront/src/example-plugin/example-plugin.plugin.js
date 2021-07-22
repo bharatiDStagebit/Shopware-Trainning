@@ -11,9 +11,7 @@ export default class ExamplePlugin extends Plugin {
     // get refernces to the dom elements
     this.button = this.el.children['ajax-button'];
     this.textdiv = this.el.children['ajax-display'];
-    this.textdiv.innerHTML = 1;
-
-
+    this.textdiv.innerHTML = '';
     // register the events
     this._registerEvents();
   }
@@ -27,21 +25,19 @@ export default class ExamplePlugin extends Plugin {
 
   _fetch() {
 
-    let old_count = this.textdiv.innerHTML;
-    let url = '/example?old_count='.concat(old_count);
+    //let old_count = this.textdiv.innerHTML;
+    let url = '/example-pagelet';
 
     // make the network request and call the `_setContent` function as a callback
-    this._client.get(url, this._setContent.bind(this), 'application/json', true)
+    // this._client.get(url, this._setContent.bind(this), 'application/json', true)
+    this._client.get(url, this._setContent.bind(this));
 
   }
 
   _setContent(data) {
-
-
     // parse the response and set the `textdiv.innerHTML` to the timestamp
     //this.textdiv.innerHTML = JSON.parse(data).timestamp;
-    var timestamp = JSON.parse(data).timestamp;
-    this.textdiv.innerHTML = timestamp;
-
+    //var timestamp = JSON.parse(data).timestamp;
+    this.textdiv.innerHTML = data;
   }
 }
