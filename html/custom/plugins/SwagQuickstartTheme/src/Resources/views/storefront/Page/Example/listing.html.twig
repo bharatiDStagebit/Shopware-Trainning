@@ -1,0 +1,24 @@
+
+{% sw_extends '@Storefront/storefront/component/product/listing.html.twig' %}
+
+{% block product_listing %}
+{{parent()}}
+{# {{dump()}}
+  {% set products = page.products %}
+  {% for product in products %}
+    <li>{{ product.translated.name }}</li>
+  {% endfor %}
+   #}
+ <template data-example-plugin></template>
+     <div>
+        <h1>Swag AJAX Example</h1>
+
+        <div  data-example-plugin>
+            <div id="ajax-display"></div>
+            <button id="ajax-button">Button</button>
+        </div>
+      </div>
+        
+  
+{% endblock %}
+
