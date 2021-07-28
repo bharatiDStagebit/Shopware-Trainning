@@ -2,9 +2,7 @@
 {% block cms_content  %}
 {{parent()}}
     <div>
-    {% sw_icon 'done-outline-24px' style {
-    'namespace': 'SwagQuickstartTheme'
-} %}
+
         <h1>Swag AJAX Example</h1>
 
         <div data-example-plugin>
@@ -12,14 +10,5 @@
             <button id="ajax-button">Button</button>
         </div>
     </div>
-     {# <script type="text/javascript">
-
-    var clicks = 0;
-    function hello() {
-        clicks += 1;
-        document.getElementById("clicks").innerHTML = clicks;
-    };
-    </script>
-    <button type="button" onclick="hello()">Click me</button>
-    <p>Clicks: <a id="clicks">0</a></p> #}
+  
 {% endblock %}

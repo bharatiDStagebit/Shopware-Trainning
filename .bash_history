@@ -77,3 +77,14 @@ node --version
 ssh dockware@localhost
 ssh dockware@localhost
 bin/console
+git branch
+git checkout -b bdeore/SB-373-202107241016
+git commit -am "Load static page content on button click ajax"
+git push
+ git push --set-upstream origin bdeore/SB-373-202107241016
+git status
+git add .
+git commit -am "ajax"
+git add .
+git push
+git status

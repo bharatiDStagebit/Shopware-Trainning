@@ -65,13 +65,13 @@ class __TwigTemplate_62b4d9782edd3d7b3c5aab202191b9da131ddddb8ade2a1a1d30df0d766
         $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02->enter($__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02_prof = new \Twig\Profiler\Profile($this->getTemplateName(), "block", "base_content"));
 
         // line 4
+        echo "   ";
+        // line 6
         echo "
-    <div data-example-plugin>
-      <div id=\"ajax-display\"></div>
-          <button id=\"ajax-button\">Load Static Data</button>
-      </div>
-</br>
-<h3>Our Categories</h3>
+
+  <div data-example-plugin>
+  <div id=\"ajax-display\"></div> 
+  <h4>Our categories</h4>
   ";
         // line 11
         $context["categories"] = twig_get_attribute($this->env, $this->source, ($context["page"] ?? null), "categories", [], "any", false, false, false, 11);
@@ -81,14 +81,24 @@ class __TwigTemplate_62b4d9782edd3d7b3c5aab202191b9da131ddddb8ade2a1a1d30df0d766
         $context['_seq'] = twig_ensure_traversable(($context["categories"] ?? null));
         foreach ($context['_seq'] as $context["_key"] => $context["category"]) {
             // line 13
-            echo "    <li>";
-            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, $context["category"], "translated", [], "any", false, false, false, 13), "name", [], "any", false, false, false, 13), "html", null, true);
-            echo "</li>
+            echo "   <li>  
+      ";
+            // line 15
+            echo "       <a href=\"#\" data-id=\"";
+            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["category"], "id", [], "any", false, false, false, 15), "html", null, true);
+            echo "\" class=\"ajax-button\">";
+            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, $context["category"], "translated", [], "any", false, false, false, 15), "name", [], "any", false, false, false, 15), "html", null, true);
+            echo "</button>
+    </li>      
   ";
         }
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['category'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
+        // line 18
+        echo " </div>
+
+";
         
         $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02->leave($__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02_prof);
 
@@ -109,7 +119,7 @@ class __TwigTemplate_62b4d9782edd3d7b3c5aab202191b9da131ddddb8ade2a1a1d30df0d766
 
     public function getDebugInfo()
     {
-        return array (  84 => 13,  79 => 12,  77 => 11,  68 => 4,  58 => 3,  35 => 2,);
+        return array (  99 => 18,  87 => 15,  84 => 13,  79 => 12,  77 => 11,  70 => 6,  68 => 4,  58 => 3,  35 => 2,);
     }
 
     public function getSourceContext()
@@ -117,17 +127,22 @@ class __TwigTemplate_62b4d9782edd3d7b3c5aab202191b9da131ddddb8ade2a1a1d30df0d766
         return new Source("
 {% sw_extends '@Storefront/storefront/base.html.twig' %}
 {% block base_content %}
+   {# {% set keys = page.categories.entities.elements|keys %}
+  {% set category = page.categories.entities.elements[keys[0]] %} #}
 
-    <div data-example-plugin>
-      <div id=\"ajax-display\"></div>
-          <button id=\"ajax-button\">Load Static Data</button>
-      </div>
-</br>
-<h3>Our Categories</h3>
+
+  <div data-example-plugin>
+  <div id=\"ajax-display\"></div> 
+  <h4>Our categories</h4>
   {% set categories = page.categories %}
   {% for category in categories %}
-    <li>{{ category.translated.name }}</li>
+   <li>  
+      {# <button  id=\"ajax-button\"  data-id=\"{{ category.id }}\">{{ category.translated.name }}</button>  #}
+       <a href=\"#\" data-id=\"{{ category.id }}\" class=\"ajax-button\">{{ category.translated.name }}</button>
+    </li>      
   {% endfor %}
+ </div>
+
 {% endblock %}
 ", "@SwagQuickstartTheme/storefront/Page/Example/index.html.twig", "/var/www/html/custom/plugins/SwagQuickstartTheme/src/Resources/views/storefront/Page/Example/index.html.twig");
     }

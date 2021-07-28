@@ -8,6 +8,8 @@ use Symfony\Component\EventDispatcher\EventDispatcherInterface;
 use Symfony\Component\HttpFoundation\Request;
 use Shopware\Core\Framework\DataAbstractionLayer\Search\Criteria;
 use Shopware\Core\Framework\DataAbstractionLayer\EntityRepositoryInterface;
+use Shopware\Core\Framework\DataAbstractionLayer\Search\Filter\EqualsFilter;
+
 
 class ExamplePageletLoader
 {
@@ -18,25 +20,26 @@ class ExamplePageletLoader
      /**
      * @var EntityRepositoryInterface
      */
-    private $categoryRepository;
+    private $productRepository;
 
-    public function __construct(EventDispatcherInterface $eventDispatcher,EntityRepositoryInterface $categoryRepository )
+    public function __construct(EventDispatcherInterface $eventDispatcher,EntityRepositoryInterface $productRepository )
     {
         $this->eventDispatcher = $eventDispatcher;
-        $this->categoryRepository = $categoryRepository;
+        $this->productRepository = $productRepository;
     }
 
     public function load(Request $request, SalesChannelContext $context): ExamplePagelet
     {
-      
+        $categoryId = $request->query->get('catId');
+       
         $pagelet = new ExamplePagelet();
-        //$criteria = new Criteria();
+        $criteria = new Criteria();
+        $criteria->addFilter(new EqualsFilter('categoryIds',  $categoryId ));
+        $criteria->setLimit(10);
 
         // Do additional stuff, e.g. load more data from repositories and add it to page
-         // $getCategories = $this->categoryRepository->search($criteria, $context->getContext());
-       
-        $staticdata="Hello This Is Custom Pagelete Static Data";
-        $pagelet->setStaticData($staticdata);
+       $products = $this->productRepository->search($criteria, $context->getContext());
+       $pagelet->setProducts($products);
 
 
         $this->eventDispatcher->dispatch(

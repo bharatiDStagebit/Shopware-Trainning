@@ -9,6 +9,7 @@ use Symfony\Component\HttpFoundation\Request;
 use Shopware\Core\Framework\DataAbstractionLayer\Search\EntitySearchResult;
 use Shopware\Core\Framework\DataAbstractionLayer\Search\Criteria;
 use Shopware\Core\Framework\DataAbstractionLayer\EntityRepositoryInterface;
+use Shopware\Core\Framework\DataAbstractionLayer\Search\Filter\EqualsFilter;
 
 
 class ExamplePageLoader
@@ -44,6 +45,7 @@ class ExamplePageLoader
         $page = ExamplePage::createFrom($page);
         
         $criteria = new Criteria();
+        $criteria->addFilter(new EqualsFilter('active', '1'));
         $getCategories = $this->categoryRepository->search($criteria, $salesChannelContext->getContext());
         // echo "<pre>";
         // print_r($getCategories);

@@ -1,3 +1,7 @@
 
-<h2>{{pagelet.staticdata}}</h2>
-  
+    {{dump()}}  
+  {% set products = pagelet.product %}
+  {% for product in products %}
+     <li style="margin-bottom:10px;">{{ product.translated.name }}</li>
+      {# <li style="margin-bottom:10px;">{{ product.translated.description }}</li>  #}
+  {% endfor %}

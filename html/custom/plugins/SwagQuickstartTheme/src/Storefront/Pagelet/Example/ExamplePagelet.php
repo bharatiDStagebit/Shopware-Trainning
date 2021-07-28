@@ -1,21 +1,20 @@
 <?php declare(strict_types=1);
 
 namespace SwagQuickstartTheme\Storefront\Pagelet\Example;
-
 use Shopware\Storefront\Pagelet\Pagelet;
 
 
 class ExamplePagelet extends Pagelet
 {
-  public $staticdata;
+  public $product;
 
-  public function getStaticData()
+  public function getProducts()
   {
-      return $this->staticdata;
+      return $this->product;
   }
 
-  public function setStaticData($staticdata)
+  public function setProducts($product)
   {
-      $this->staticdata = $staticdata;
+      $this->product = $product;
   }
 }
