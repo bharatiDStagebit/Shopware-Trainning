@@ -1,0 +1,30 @@
+[2021-07-27 10:26:19.464] [exthost] [info] extension host started
+[2021-07-27 10:26:19.470] [exthost] [error] Error: EEXIST: file already exists, open '/var/www/.vscode-server/data/User/workspaceStorage/c442117acadd182bd5a664e886124edc/vscode.lock'
+[2021-07-27 10:26:19.494] [exthost] [info] Lock '/var/www/.vscode-server/data/User/workspaceStorage/c442117acadd182bd5a664e886124edc/vscode.lock': Could not acquire lock, checking if the file is stale.
+[2021-07-27 10:26:19.513] [exthost] [info] Lock '/var/www/.vscode-server/data/User/workspaceStorage/c442117acadd182bd5a664e886124edc/vscode.lock': The lock looks stale, waiting for 2s.
+[2021-07-27 10:26:19.586] [exthost] [info] ExtensionService#_doActivateExtension vscode.typescript-language-features {"startup":false,"extensionId":{"value":"vscode.typescript-language-features","_lower":"vscode.typescript-language-features"},"activationEvent":"onLanguage:javascript"}
+[2021-07-27 10:26:19.586] [exthost] [info] ExtensionService#loadCommonJSModule file:///var/www/.vscode-server/bin/c3f126316369cd610563c75b1b1725e0679adfb3/extensions/typescript-language-features/dist/extension
+[2021-07-27 10:26:24.327] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch {"startup":true,"extensionId":{"value":"vscode.debug-auto-launch","_lower":"vscode.debug-auto-launch"},"activationEvent":"*"}
+[2021-07-27 10:26:24.957] [exthost] [info] ExtensionService#loadCommonJSModule file:///var/www/.vscode-server/bin/c3f126316369cd610563c75b1b1725e0679adfb3/extensions/debug-auto-launch/dist/extension
+[2021-07-27 10:26:24.966] [exthost] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"extensionId":{"value":"vscode.github","_lower":"vscode.github"},"activationEvent":"*"}
+[2021-07-27 10:26:24.966] [exthost] [info] ExtensionService#loadCommonJSModule file:///var/www/.vscode-server/bin/c3f126316369cd610563c75b1b1725e0679adfb3/extensions/git/dist/main
+[2021-07-27 10:26:25.099] [exthost] [info] ExtensionService#_doActivateExtension nadim-vscode.symfony-code-snippets {"startup":true,"extensionId":{"value":"nadim-vscode.symfony-code-snippets","_lower":"nadim-vscode.symfony-code-snippets"},"activationEvent":"*"}
+[2021-07-27 10:26:25.099] [exthost] [info] ExtensionService#loadCommonJSModule file:///var/www/.vscode-server/extensions/nadim-vscode.symfony-code-snippets-1.2.7/extension
+[2021-07-27 10:26:25.101] [exthost] [info] ExtensionService#_doActivateExtension nadim-vscode.symfony-super-console {"startup":true,"extensionId":{"value":"nadim-vscode.symfony-super-console","_lower":"nadim-vscode.symfony-super-console"},"activationEvent":"*"}
+[2021-07-27 10:26:25.101] [exthost] [info] ExtensionService#loadCommonJSModule file:///var/www/.vscode-server/extensions/nadim-vscode.symfony-super-console-1.1.1/extension.js
+[2021-07-27 10:26:25.108] [exthost] [info] Lock '/var/www/.vscode-server/data/User/workspaceStorage/c442117acadd182bd5a664e886124edc/vscode.lock': The lock looks stale even after waiting for 2s.
+[2021-07-27 10:26:25.108] [exthost] [info] Lock '/var/www/.vscode-server/data/User/workspaceStorage/c442117acadd182bd5a664e886124edc/vscode.lock': Deleting a stale lock.
+[2021-07-27 10:26:25.125] [exthost] [info] Lock '/var/www/.vscode-server/data/User/workspaceStorage/c442117acadd182bd5a664e886124edc/vscode.lock': Lock acquired.
+[2021-07-27 10:26:33.200] [exthost] [info] ExtensionService#_doActivateExtension vscode.github {"startup":true,"extensionId":{"value":"vscode.github","_lower":"vscode.github"},"activationEvent":"*"}
+[2021-07-27 10:26:33.200] [exthost] [info] ExtensionService#loadCommonJSModule file:///var/www/.vscode-server/bin/c3f126316369cd610563c75b1b1725e0679adfb3/extensions/github/dist/extension.js
+[2021-07-27 10:26:41.708] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":false,"extensionId":{"value":"vscode.emmet","_lower":"vscode.emmet"},"activationEvent":"onStartupFinished"}
+[2021-07-27 10:26:41.709] [exthost] [info] ExtensionService#loadCommonJSModule file:///var/www/.vscode-server/bin/c3f126316369cd610563c75b1b1725e0679adfb3/extensions/emmet/dist/node/emmetNodeMain
+[2021-07-27 10:26:42.103] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":false,"extensionId":{"value":"vscode.merge-conflict","_lower":"vscode.merge-conflict"},"activationEvent":"onStartupFinished"}
+[2021-07-27 10:26:42.103] [exthost] [info] ExtensionService#loadCommonJSModule file:///var/www/.vscode-server/bin/c3f126316369cd610563c75b1b1725e0679adfb3/extensions/merge-conflict/dist/mergeConflictMain
+[2021-07-27 10:26:42.120] [exthost] [info] ExtensionService#_doActivateExtension vscode.testing-editor-contributions {"startup":false,"extensionId":{"value":"vscode.testing-editor-contributions","_lower":"vscode.testing-editor-contributions"},"activationEvent":"onStartupFinished"}
+[2021-07-27 10:26:42.120] [exthost] [info] ExtensionService#loadCommonJSModule file:///var/www/.vscode-server/bin/c3f126316369cd610563c75b1b1725e0679adfb3/extensions/testing-editor-contributions/dist/extension.js
+[2021-07-27 10:26:45.068] [exthost] [info] eager extensions activated
+[2021-07-27 10:26:45.200] [exthost] [info] ExtensionService#_doActivateExtension ms-vscode.js-debug {"startup":false,"extensionId":{"value":"ms-vscode.js-debug","_lower":"ms-vscode.js-debug"},"activationEvent":"onCommand:extension.js-debug.clearAutoAttachVariables"}
+[2021-07-27 10:26:45.201] [exthost] [info] ExtensionService#loadCommonJSModule file:///var/www/.vscode-server/bin/c3f126316369cd610563c75b1b1725e0679adfb3/extensions/ms-vscode.js-debug/src/extension.js
+[2021-07-27 10:27:08.460] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 2454
+[2021-07-27 10:29:14.153] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 2474

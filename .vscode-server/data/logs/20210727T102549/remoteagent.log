@@ -1,0 +1,41 @@
+[2021-07-27 10:25:49.861] [remoteagent] [info] 
+
+*
+* Visual Studio Code Server
+*
+* Reminder: You may only use this software with Visual Studio family products,
+* as described in the license https://aka.ms/vscode-remote/license
+*
+
+
+[2021-07-27 10:25:49.861] [remoteagent] [info] Extension host agent started.
+[2021-07-27 10:25:50.618] [remoteagent] [info] [127.0.0.1][797870a8][ExtensionHostConnection] New connection established.
+[2021-07-27 10:25:50.619] [remoteagent] [info] [127.0.0.1][867572b5][ManagementConnection] New connection established.
+[2021-07-27 10:25:53.455] [remoteagent] [info] [127.0.0.1][797870a8][ExtensionHostConnection] <1123> Launched Extension Host Process.
+[2021-07-27 10:25:56.436] [remoteagent] [warning] No ptyHost heartbeat after 6 seconds
+[2021-07-27 10:26:18.902] [remoteagent] [info] [127.0.0.1][797870a8][ExtensionHostConnection] The client has reconnected.
+[2021-07-27 10:26:30.078] [remoteagent] [warning] No ptyHost heartbeat after 6 seconds
+[2021-07-27 10:26:42.082] [remoteagent] [warning] No ptyHost heartbeat after 6 seconds
+[2021-07-27 10:26:48.089] [remoteagent] [warning] No ptyHost heartbeat after 6 seconds
+[2021-07-27 10:27:03.482] [remoteagent] [warning] No ptyHost heartbeat after 6 seconds
+[2021-07-27 10:27:21.157] [remoteagent] [info] [127.0.0.1][797870a8][ExtensionHostConnection] The client has reconnected.
+[2021-07-27 10:27:38.569] [remoteagent] [warning] No ptyHost heartbeat after 6 seconds
+[2021-07-27 10:27:52.227] [remoteagent] [warning] No ptyHost heartbeat after 6 seconds
+[2021-07-27 10:27:55.708] [remoteagent] [info] [127.0.0.1][797870a8][ExtensionHostConnection] The client has reconnected.
+[2021-07-27 10:28:13.716] [remoteagent] [warning] No ptyHost heartbeat after 6 seconds
+[2021-07-27 10:28:35.722] [remoteagent] [warning] No ptyHost heartbeat after 6 seconds
+[2021-07-27 10:28:53.013] [remoteagent] [warning] No ptyHost heartbeat after 6 seconds
+[2021-07-27 10:29:05.109] [remoteagent] [warning] No ptyHost heartbeat after 6 seconds
+[2021-07-27 10:29:13.112] [remoteagent] [warning] No ptyHost heartbeat after 6 seconds
+[2021-07-27 10:29:31.727] [remoteagent] [warning] No ptyHost heartbeat after 6 seconds
+[2021-07-27 10:30:20.517] [remoteagent] [warning] No ptyHost heartbeat after 6 seconds
+[2021-07-27 10:30:42.622] [remoteagent] [warning] No ptyHost heartbeat after 6 seconds
+[2021-07-27 10:31:39.469] [remoteagent] [warning] No ptyHost heartbeat after 6 seconds
+[2021-07-27 10:31:47.773] [remoteagent] [warning] No ptyHost heartbeat after 6 seconds
+[2021-07-27 10:32:02.413] [remoteagent] [warning] No ptyHost heartbeat after 6 seconds
+[2021-07-27 10:32:08.647] [remoteagent] [warning] No ptyHost heartbeat after 6 seconds
+[2021-07-27 10:32:23.275] [remoteagent] [warning] No ptyHost heartbeat after 6 seconds
+[2021-07-27 10:32:30.447] [remoteagent] [warning] No ptyHost heartbeat after 6 seconds
+[2021-07-27 10:33:19.111] [remoteagent] [warning] No ptyHost heartbeat after 6 seconds
+[2021-07-27 10:33:47.293] [remoteagent] [warning] No ptyHost heartbeat after 6 seconds
+[2021-07-27 10:34:15.286] [remoteagent] [warning] No ptyHost heartbeat after 6 seconds

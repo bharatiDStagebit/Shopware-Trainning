@@ -1,0 +1,75 @@
+[2021-07-27 06:20:01.499] [remoteagent] [info] 
+
+*
+* Visual Studio Code Server
+*
+* Reminder: You may only use this software with Visual Studio family products,
+* as described in the license https://aka.ms/vscode-remote/license
+*
+
+
+[2021-07-27 06:20:01.499] [remoteagent] [info] Extension host agent started.
+[2021-07-27 06:20:01.638] [remoteagent] [info] [127.0.0.1][f976976a][ManagementConnection] New connection established.
+[2021-07-27 06:20:01.640] [remoteagent] [info] [127.0.0.1][c636d9cd][ExtensionHostConnection] New connection established.
+[2021-07-27 06:20:01.719] [remoteagent] [info] [127.0.0.1][c636d9cd][ExtensionHostConnection] <896> Launched Extension Host Process.
+[2021-07-27 06:42:09.088] [remoteagent] [warning] No ptyHost heartbeat after 6 seconds
+[2021-07-27 06:42:16.101] [remoteagent] [warning] No ptyHost heartbeat after 6 seconds
+[2021-07-27 06:52:16.917] [remoteagent] [warning] No ptyHost heartbeat after 6 seconds
+[2021-07-27 06:52:23.925] [remoteagent] [warning] No ptyHost heartbeat after 6 seconds
+[2021-07-27 06:54:04.934] [remoteagent] [warning] No ptyHost heartbeat after 6 seconds
+[2021-07-27 07:00:09.969] [remoteagent] [warning] No ptyHost heartbeat after 6 seconds
+[2021-07-27 07:00:27.888] [remoteagent] [warning] No ptyHost heartbeat after 6 seconds
+[2021-07-27 07:00:46.161] [remoteagent] [warning] No ptyHost heartbeat after 6 seconds
+[2021-07-27 07:01:04.442] [remoteagent] [warning] No ptyHost heartbeat after 6 seconds
+[2021-07-27 07:01:07.654] [remoteagent] [info] [127.0.0.1][c636d9cd][ExtensionHostConnection] The client has reconnected.
+[2021-07-27 07:01:29.150] [remoteagent] [info] [127.0.0.1][c636d9cd][ExtensionHostConnection] The client has reconnected.
+[2021-07-27 07:18:25.723] [remoteagent] [warning] No ptyHost heartbeat after 6 seconds
+[2021-07-27 07:18:46.620] [remoteagent] [info] [127.0.0.1][c636d9cd][ExtensionHostConnection] The client has reconnected.
+[2021-07-27 07:19:07.272] [remoteagent] [info] [127.0.0.1][c636d9cd][ExtensionHostConnection] The client has reconnected.
+[2021-07-27 07:19:28.540] [remoteagent] [info] [127.0.0.1][c636d9cd][ExtensionHostConnection] The client has reconnected.
+[2021-07-27 07:19:48.712] [remoteagent] [info] [127.0.0.1][c636d9cd][ExtensionHostConnection] The client has reconnected.
+[2021-07-27 07:21:11.314] [remoteagent] [warning] No ptyHost heartbeat after 6 seconds
+[2021-07-27 07:21:31.773] [remoteagent] [warning] No ptyHost heartbeat after 6 seconds
+[2021-07-27 07:21:42.807] [remoteagent] [warning] No ptyHost heartbeat after 6 seconds
+[2021-07-27 07:22:14.599] [remoteagent] [warning] No ptyHost heartbeat after 6 seconds
+[2021-07-27 07:22:36.710] [remoteagent] [warning] No ptyHost heartbeat after 6 seconds
+[2021-07-27 07:22:58.873] [remoteagent] [warning] No ptyHost heartbeat after 6 seconds
+[2021-07-27 07:27:14.687] [remoteagent] [warning] No ptyHost heartbeat after 6 seconds
+[2021-07-27 07:36:11.769] [remoteagent] [info] [127.0.0.1][c636d9cd][ExtensionHostConnection] The client has reconnected.
+[2021-07-27 07:36:32.522] [remoteagent] [info] [127.0.0.1][c636d9cd][ExtensionHostConnection] The client has reconnected.
+[2021-07-27 07:36:34.232] [remoteagent] [warning] No ptyHost heartbeat after 6 seconds
+[2021-07-27 07:36:45.235] [remoteagent] [warning] No ptyHost heartbeat after 6 seconds
+[2021-07-27 07:37:26.870] [remoteagent] [warning] No ptyHost heartbeat after 6 seconds
+[2021-07-27 07:37:53.777] [remoteagent] [warning] No ptyHost heartbeat after 6 seconds
+[2021-07-27 08:05:29.145] [remoteagent] [warning] No ptyHost heartbeat after 6 seconds
+[2021-07-27 08:24:21.252] [remoteagent] [warning] No ptyHost heartbeat after 6 seconds
+[2021-07-27 08:24:27.505] [remoteagent] [warning] No ptyHost heartbeat after 6 seconds
+[2021-07-27 08:24:50.683] [remoteagent] [warning] No ptyHost heartbeat after 6 seconds
+[2021-07-27 08:29:26.532] [remoteagent] [warning] No ptyHost heartbeat after 6 seconds
+[2021-07-27 08:29:51.962] [remoteagent] [warning] No ptyHost heartbeat after 6 seconds
+[2021-07-27 08:30:59.849] [remoteagent] [warning] No ptyHost heartbeat after 6 seconds
+[2021-07-27 08:31:04.852] [remoteagent] [error] No ptyHost heartbeat after 12 seconds
+[2021-07-27 08:39:25.911] [remoteagent] [warning] No ptyHost heartbeat after 6 seconds
+[2021-07-27 08:57:03.365] [remoteagent] [warning] No ptyHost heartbeat after 6 seconds
+[2021-07-27 09:08:46.348] [remoteagent] [warning] No ptyHost heartbeat after 6 seconds
+[2021-07-27 09:08:52.953] [remoteagent] [warning] No ptyHost heartbeat after 6 seconds
+[2021-07-27 09:08:57.955] [remoteagent] [error] No ptyHost heartbeat after 12 seconds
+[2021-07-27 09:09:05.866] [remoteagent] [info] [127.0.0.1][c636d9cd][ExtensionHostConnection] The client has reconnected.
+[2021-07-27 09:09:31.601] [remoteagent] [info] [127.0.0.1][c636d9cd][ExtensionHostConnection] The client has reconnected.
+[2021-07-27 09:09:42.020] [remoteagent] [warning] No ptyHost heartbeat after 6 seconds
+[2021-07-27 09:09:53.810] [remoteagent] [warning] No ptyHost heartbeat after 6 seconds
+[2021-07-27 09:10:01.158] [remoteagent] [warning] No ptyHost heartbeat after 6 seconds
+[2021-07-27 09:10:17.716] [remoteagent] [warning] No ptyHost heartbeat after 6 seconds
+[2021-07-27 09:10:35.861] [remoteagent] [warning] No ptyHost heartbeat after 6 seconds
+[2021-07-27 09:10:42.359] [remoteagent] [info] [127.0.0.1][c636d9cd][ExtensionHostConnection] The client has reconnected.
+[2021-07-27 09:10:48.343] [remoteagent] [warning] No ptyHost heartbeat after 6 seconds
+[2021-07-27 09:10:56.368] [remoteagent] [warning] No ptyHost heartbeat after 6 seconds
+[2021-07-27 09:11:10.358] [remoteagent] [info] [127.0.0.1][c636d9cd][ExtensionHostConnection] The client has reconnected.
+[2021-07-27 09:11:31.096] [remoteagent] [warning] No ptyHost heartbeat after 6 seconds
+[2021-07-27 09:11:42.617] [remoteagent] [warning] No ptyHost heartbeat after 6 seconds
+[2021-07-27 09:11:44.262] [remoteagent] [info] [127.0.0.1][c636d9cd][ExtensionHostConnection] The client has reconnected.
+[2021-07-27 09:11:54.109] [remoteagent] [warning] No ptyHost heartbeat after 6 seconds
+[2021-07-27 09:12:05.632] [remoteagent] [info] [127.0.0.1][c636d9cd][ExtensionHostConnection] The client has reconnected.
+[2021-07-27 09:12:15.174] [remoteagent] [warning] No ptyHost heartbeat after 6 seconds
+[2021-07-27 09:12:47.128] [remoteagent] [warning] No ptyHost heartbeat after 6 seconds
+[2021-07-27 09:12:53.666] [remoteagent] [warning] No ptyHost heartbeat after 6 seconds
